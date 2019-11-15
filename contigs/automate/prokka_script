@@ -15,7 +15,7 @@ do
 	pwd
 	mv *.gff ../gff_files
 	cd ..
-	echo "*************************************currently comming out of generated outdir:"
+	echo "*************************************currently coming out of generated outdir:"
 	pwd
 	rm -r $outdir
 	echo "************************************* removed outdir"
