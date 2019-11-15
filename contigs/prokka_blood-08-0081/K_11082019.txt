@@ -1,8 +1,0 @@
-organism: E.coli species strain 
-contigs: 128
-bases: 5271740
-tRNA: 68
-tmRNA: 1
-rRNA: 11
-CDS: 4963
-repeat_region: 2

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+for f in *.fa
+do
+	prokka_prefix="prokka_"
+	length=${#f}
+	output_filename="${f:0:length-3}"
+	outdir=$prokka_prefix$output_filename
+
+	prokka --kingdom Bacteria --usegenus --outdir $outdir --genus Escherichia --locustag $output_filename $f
+
+	echo "*************************************going to extract gff3 file and delete folder"
+	cd $outdir
+	echo "*************************************currently inside generated outdir"
+	pwd
+	mv *.gff ../gff_files
+	cd ..
+	echo "*************************************currently comming out of generated outdir:"
+	pwd
+	rm -r $outdir
+	echo "************************************* removed outdir"
+done
