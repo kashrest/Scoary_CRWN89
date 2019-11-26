@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for f in *.gff
+do
+	hyphen="-"
+	length=${#f}
+	prefix="${f:0:length-13}"
+	suffix="${f:length-12:length}"
+	newname=$prefix$hyphen$suffix
+	
+	mv $f $newname
+done
