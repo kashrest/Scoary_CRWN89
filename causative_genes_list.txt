@@ -1,0 +1,19 @@
+
+Antibiotic	Gene(s)/Mutation(s) known to cause resistance to given antibiotic
+Ampicillin	virtually all beta-lactamases
+Aztreonam	blaCTX-M-15, other CTX-M beta-lactamases, but not blaCTX-M-14b
+Cefazolin	some beta-lactamases
+Ceftazidime	blaCTX-M-14b, blaCTX-M-15, other CTX-M beta-lactamases
+
+Ceftriaxone	blaCTX-M-14b, blaCTX-M-15, other CTX-M beta-lactamases
+Cefepime	blaCTX-M-14b, blaCTX-M-15, other CTX-M beta-lactamases
+Gentamicin	aac(3)-IIa, aac(3)-IId
+
+Tobramycin	aac(3)-IIa, aac(3)-IId, aac(6')-Ib-cr
+Ciprofloxacin	mutations at amino acid position 83 in GyrA,  mutations at amino acid position 87 in GyrA, mutations at amino acid position 80 in ParC
+
+Levofloxacin	mutations at amino acid position 83 in GyrA,  mutations at amino acid position 87 in GyrA, mutations at amino acid position 80 in ParC
+
+Moxifloxacin	some of the mutations listed for Ciprofloxacin and Levofloxacin should confer a degree of resistance to Moxifloxacin
+
+
