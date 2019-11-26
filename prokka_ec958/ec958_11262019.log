@@ -1,0 +1,1816 @@
+[16:46:15] This is prokka 1.12-beta
+[16:46:15] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:46:15] Homepage is https://github.com/tseemann/prokka
+[16:46:15] Local time is Tue Nov 26 16:46:15 2019
+[16:46:15] You are manager
+[16:46:15] Operating system is linux
+[16:46:15] You have BioPerl 1.006924
+[16:46:15] System has 1 cores.
+[16:46:15] Option --cpu asked for 8 cores, but system only has 1
+[16:46:15] Will use maximum of 1 cores.
+[16:46:15] Annotating as >>> Bacteria <<<
+[16:46:15] Creating new output folder: prokka_ec958
+[16:46:15] Running: mkdir -p prokka_ec958
+[16:46:16] Using filename prefix: ec958_11262019.XXX
+[16:46:16] Setting HMMER_NCPU=1
+[16:46:16] Writing log to: prokka_ec958/ec958_11262019.log
+[16:46:16] Command: /usr/local/bin/prokka --kingdom Bacteria --usegenus --outdir prokka_ec958 --genus Escherichia --locustag ec958 ec958.fa
+[16:46:16] Appending to PATH: /opt/prokka/bin/../binaries/linux
+[16:46:16] Appending to PATH: /opt/prokka/bin/../binaries/linux/../common
+[16:46:16] Appending to PATH: /opt/prokka/bin
+[16:46:16] Looking for 'aragorn' - found /usr/bin/aragorn
+[16:46:16] Determined aragorn version is 1.2
+[16:46:16] Looking for 'barrnap' - found /usr/local/bin/barrnap
+[16:46:16] Determined barrnap version is 0.7
+[16:46:16] Looking for 'blastp' - found /usr/bin/blastp
+[16:46:18] Determined blastp version is 2.2
+[16:46:18] Looking for 'cmpress' - found /usr/bin/cmpress
+[16:46:18] Determined cmpress version is 1.1
+[16:46:18] Looking for 'cmscan' - found /usr/bin/cmscan
+[16:46:18] Determined cmscan version is 1.1
+[16:46:18] Looking for 'egrep' - found /bin/egrep
+[16:46:18] Looking for 'find' - found /usr/bin/find
+[16:46:18] Looking for 'grep' - found /bin/grep
+[16:46:18] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[16:46:18] Determined hmmpress version is 3.1
+[16:46:18] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[16:46:18] Determined hmmscan version is 3.1
+[16:46:18] Looking for 'less' - found /usr/bin/less
+[16:46:18] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[16:46:18] Determined makeblastdb version is 2.2
+[16:46:18] Looking for 'minced' - found /opt/prokka/bin/../binaries/linux/../common/minced
+[16:46:20] Determined minced version is 2.0
+[16:46:20] Looking for 'parallel' - found /usr/bin/parallel
+[16:46:20] Determined parallel version is 20161222
+[16:46:20] Looking for 'prodigal' - found /usr/bin/prodigal
+[16:46:21] Determined prodigal version is 2.6
+[16:46:21] Looking for 'prokka-genbank_to_fasta_db' - found /opt/prokka/bin/prokka-genbank_to_fasta_db
+[16:46:21] Looking for 'sed' - found /bin/sed
+[16:46:21] Looking for 'tbl2asn' - found /usr/bin/tbl2asn
+[16:46:21] Determined tbl2asn version is 25.8
+[16:46:21] Using genetic code table 11.
+[16:46:21] Loading and checking input file: ec958.fa
+[16:46:21] Wrote 1 contigs totalling 5109767 bp.
+[16:46:21] Predicting tRNAs and tmRNAs
+[16:46:21] Running: aragorn -l -gc11  -w prokka_ec958\/ec958_11262019\.fna
+[16:46:25] 1 tRNA-Ile [245105,245181] 35 (gat)
+[16:46:25] 2 tRNA-Ala [245224,245299] 34 (tgc)
+[16:46:25] 3 tRNA-Asp [248659,248735] 35 (gtc)
+[16:46:25] 4 tRNA-Asp [256884,256960] 35 (gtc)
+[16:46:25] 5 tRNA-Thr [317413,317488] 34 (cgt)
+[16:46:25] 6 tRNA-Ser [385505,385585] 38 (gga)
+[16:46:25] 7 tRNA-Arg [586871,586947] 35 (tct)
+[16:46:25] 8 tRNA-Gln c[705941,706015] 33 (ctg)
+[16:46:25] 9 tRNA-Gln c[706053,706127] 33 (ctg)
+[16:46:25] 10 tRNA-Met c[706176,706252] 35 (cat)
+[16:46:25] 11 tRNA-Gln c[706268,706342] 33 (ttg)
+[16:46:25] 12 tRNA-Gln c[706377,706451] 33 (ttg)
+[16:46:25] 13 tRNA-Leu c[706475,706559] 35 (tag)
+[16:46:25] 14 tRNA-Met c[706570,706646] 35 (cat)
+[16:46:25] 15 tRNA-Lys [792671,792746] 34 (ttt)
+[16:46:25] 16 tRNA-Val [792782,792857] 34 (tac)
+[16:46:25] 17 tRNA-Lys [792860,792935] 34 (ttt)
+[16:46:25] 18 tRNA-Val [792987,793062] 34 (tac)
+[16:46:25] 19 tRNA-Lys [793066,793141] 34 (ttt)
+[16:46:25] 20 tRNA-Lys [793190,793265] 34 (ttt)
+[16:46:25] 21 tRNA-Lys [793299,793374] 34 (ttt)
+[16:46:25] 22 tRNA-Ser c[934896,934983] 35 (gga)
+[16:46:25] 23 tRNA-Ser c[1105918,1106005] 35 (tga)
+[16:46:25] 24 tRNA-Ser c[1157930,1158017] 35 (gga)
+[16:46:25] 25 tRNA-Tyr c[1410598,1410682] 35 (gta)
+[16:46:25] 26 tRNA-Met [1452428,1452503] 34 (cat)
+[16:46:25] 27 tRNA-Arg [1452604,1452680] 35 (tct)
+[16:46:25] 28 tRNA-Val [1807924,1808000] 35 (gac)
+[16:46:25] 29 tRNA-Val [1808005,1808081] 35 (gac)
+[16:46:25] 30 tRNA-Leu c[2085976,2086062] 35 (taa)
+[16:46:25] 31 tRNA-Cys c[2086075,2086148] 33 (gca)
+[16:46:25] 32 tRNA-Gly c[2086202,2086277] 34 (gcc)
+[16:46:25] 33 tRNA-Arg c[2166308,2166382] 35 (tct)
+[16:46:25] 34 tRNA-Met c[2166483,2166558] 34 (cat)
+[16:46:25] 35 tRNA-Ser c[2179642,2179731] 35 (cga)
+[16:46:25] 36 tRNA-Asn [2180723,2180798] 34 (gtt)
+[16:46:25] 37 tRNA-Asn c[2220615,2220690] 34 (gtt)
+[16:46:25] 38 tRNA-Asn [2222439,2222514] 34 (gtt)
+[16:46:25] 39 tRNA-Asn [2224848,2224923] 34 (gtt)
+[16:46:25] 40 tRNA-Pro [2486902,2486978] 35 (ggg)
+[16:46:25] 41 tRNA-Arg [2656802,2656876] 34 (cct)
+[16:46:25] 42 tRNA-Ala c[2708018,2708093] 34 (ggc)
+[16:46:25] 43 tRNA-Ala c[2708133,2708208] 34 (ggc)
+[16:46:25] 44 tRNA-Val [2710907,2710982] 34 (tac)
+[16:46:25] 45 tRNA-Val [2711027,2711102] 34 (tac)
+[16:46:25] 46 tRNA-Val [2711149,2711224] 34 (tac)
+[16:46:25] 47 tRNA-Lys [2711229,2711304] 34 (ttt)
+[16:46:25] 48 tRNA-Glu c[2900867,2900942] 35 (ttc)
+[16:46:25] 49 tmRNA [2926890,2927252] 90,125 ANDENYALAA**
+[16:46:25] 50 tRNA-Arg c[2958801,2958877] 35 (acg)
+[16:46:25] 51 tRNA-Arg c[2958941,2959017] 35 (acg)
+[16:46:25] 52 tRNA-Arg c[2959080,2959156] 35 (acg)
+[16:46:25] 53 tRNA-Arg c[2959221,2959297] 35 (acg)
+[16:46:25] 54 tRNA-Ser c[2959301,2959393] 35 (gct)
+[16:46:25] 55 tRNA-Met [3083380,3083456] 35 (cat)
+[16:46:25] 56 tRNA-Met [3083490,3083566] 35 (cat)
+[16:46:25] 57 tRNA-Met [3083600,3083676] 35 (cat)
+[16:46:25] 58 tRNA-Gly c[3170771,3170844] 33 (ccc)
+[16:46:25] 59 tRNA-Phe [3284808,3284883] 34 (gaa)
+[16:46:25] 60 tRNA-Met [3517423,3517498] 34 (cat)
+[16:46:25] 61 tRNA-Met c[3615143,3615219] 35 (cat)
+[16:46:25] 62 tRNA-Leu c[3619000,3619086] 35 (gag)
+[16:46:25] 63 tRNA-Thr c[3718470,3718545] 34 (ggt)
+[16:46:25] 64 tRNA-Ala c[3721864,3721939] 34 (tgc)
+[16:46:25] 65 tRNA-Ile c[3721982,3722058] 35 (gat)
+[16:46:25] 66 tRNA-Pro c[4000134,4000210] 35 (cgg)
+[16:46:25] 67 tRNA-seC [4131037,4131131] 35 (tca)
+[16:46:25] 68 tRNA-Glu [4301824,4301899] 35 (ttc)
+[16:46:25] 69 tRNA-Asp [4305269,4305345] 35 (gtc)
+[16:46:25] 70 tRNA-Trp [4305354,4305429] 34 (cca)
+[16:46:25] 71 tRNA-Arg [4339898,4339974] 35 (ccg)
+[16:46:25] 72 tRNA-His [4340033,4340108] 34 (gtg)
+[16:46:25] 73 tRNA-Ser [4340129,4340215] 35 (cag)
+[16:46:25] 74 tRNA-Pro [4340258,4340334] 35 (tgg)
+[16:46:25] 75 tRNA-Glu [4416313,4416388] 35 (ttc)
+[16:46:25] 76 tRNA-Ile [4545351,4545427] 35 (gat)
+[16:46:25] 77 tRNA-Ala [4545470,4545545] 34 (tgc)
+[16:46:25] 78 tRNA-Thr [4552316,4552391] 34 (tgt)
+[16:46:25] 79 tRNA-Tyr [4552400,4552484] 35 (gta)
+[16:46:25] 80 tRNA-Gly [4552601,4552675] 34 (tcc)
+[16:46:25] 81 tRNA-Thr [4552682,4552757] 34 (ggt)
+[16:46:25] 82 tRNA-Glu [4585636,4585711] 35 (ttc)
+[16:46:25] 83 tRNA-Phe c[4777882,4777957] 34 (gaa)
+[16:46:25] 84 tRNA-Gly [4807115,4807190] 34 (gcc)
+[16:46:25] 85 tRNA-Gly [4807227,4807302] 34 (gcc)
+[16:46:25] 86 tRNA-Gly [4807338,4807413] 34 (gcc)
+[16:46:25] 87 tRNA-Leu [4913777,4913861] 35 (caa)
+[16:46:25] 88 tRNA-Ser c[5074456,5074542] 35 (cag)
+[16:46:25] 89 tRNA-Ser c[5074577,5074663] 35 (cag)
+[16:46:25] 90 tRNA-Ser c[5074692,5074778] 35 (cag)
+[16:46:25] Found 90 tRNAs
+[16:46:25] Predicting Ribosomal RNAs
+[16:46:25] Running Barrnap with 1 threads
+[16:46:35] 1 EC958 243496 16S ribosomal RNA
+[16:46:35] 2 EC958 245485 23S ribosomal RNA
+[16:46:35] 3 EC958 248491 5S ribosomal RNA
+[16:46:35] 4 EC958 2897555 5S ribosomal RNA
+[16:46:35] 5 EC958 2897771 23S ribosomal RNA
+[16:46:35] 6 EC958 2901029 16S ribosomal RNA
+[16:46:35] 7 EC958 3718318 5S ribosomal RNA
+[16:46:35] 8 EC958 3718563 5S ribosomal RNA
+[16:46:35] 9 EC958 3718779 23S ribosomal RNA
+[16:46:35] 10 EC958 3722128 16S ribosomal RNA
+[16:46:35] 11 EC958 4300199 16S ribosomal RNA
+[16:46:35] 12 EC958 4302095 23S ribosomal RNA
+[16:46:35] 13 EC958 4305101 5S ribosomal RNA
+[16:46:35] 14 EC958 4414688 16S ribosomal RNA
+[16:46:35] 15 EC958 4416584 23S ribosomal RNA
+[16:46:35] 16 EC958 4419590 5S ribosomal RNA
+[16:46:35] 17 EC958 4543744 16S ribosomal RNA
+[16:46:35] 18 EC958 4545730 23S ribosomal RNA
+[16:46:35] 19 EC958 4548736 5S ribosomal RNA
+[16:46:35] 20 EC958 4584011 16S ribosomal RNA
+[16:46:35] 21 EC958 4585907 23S ribosomal RNA
+[16:46:35] 22 EC958 4588913 5S ribosomal RNA
+[16:46:35] Found 22 rRNAs
+[16:46:35] Skipping ncRNA search, enable with --rfam if desired.
+[16:46:35] Total of 111 tRNA + rRNA features
+[16:46:35] Searching for CRISPR repeats
+[16:46:36] Found 0 CRISPRs
+[16:46:36] Predicting coding sequences
+[16:46:36] Contigs total 5109767 bp, so using single mode
+[16:46:36] Running: prodigal -i prokka_ec958\/ec958_11262019\.fna -c -m -g 11 -p single -f sco -q
+[16:46:55] Excluding CDS which overlaps existing RNA (rRNA) at EC958:244680..244970 on + strand
+[16:47:07] Excluding CDS which overlaps existing RNA (tRNA) at EC958:2705622..2708057 on - strand
+[16:47:08] Excluding CDS which overlaps existing RNA (rRNA) at EC958:2901128..2901382 on - strand
+[16:47:08] Excluding CDS which overlaps existing RNA (tRNA) at EC958:2958940..2959590 on + strand
+[16:47:12] Excluding CDS which overlaps existing RNA (tRNA) at EC958:3718393..3718665 on + strand
+[16:47:12] Excluding CDS which overlaps existing RNA (rRNA) at EC958:3722227..3722481 on - strand
+[16:47:14] Excluding CDS which overlaps existing RNA (rRNA) at EC958:4301384..4301638 on + strand
+[16:47:15] Excluding CDS which overlaps existing RNA (rRNA) at EC958:4415873..4416127 on + strand
+[16:47:16] Excluding CDS which overlaps existing RNA (rRNA) at EC958:4544928..4545182 on + strand
+[16:47:16] Excluding CDS which overlaps existing RNA (rRNA) at EC958:4585196..4585450 on + strand
+[16:47:18] Found 4762 CDS
+[16:47:18] Connecting features back to sequences
+[16:47:18] Using custom Escherichia database for annotation
+[16:47:18] Annotating CDS, please be patient.
+[16:47:18] Will use 1 CPUs for similarity searching.
+[16:47:30] There are still 4762 unannotated CDS left (started with 4762)
+[16:47:30] Will use blast to search against /opt/prokka/bin/../db/genus/Escherichia with 1 CPUs
+[16:47:30] Running: cat prokka_ec958\/Escherichia\.faa | parallel --gnu --plain -j 1 --block 762034 --recstart '>' --pipe blastp -query - -db /opt/prokka/bin/../db/genus/Escherichia -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_ec958\/Escherichia\.blast 2> /dev/null
+[16:49:31] Modify product: predicted protein => putative protein
+[16:49:31] Modify product: conserved inner membrane protein associated with acetate transport => hypothetical protein
+[16:49:31] Modify product: conserved protein => hypothetical protein
+[16:49:31] Modify product: predicted protein => putative protein
+[16:49:31] Modify product: conserved outer membrane protein => hypothetical protein
+[16:49:32] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:32] Modify product: predicted acyl transferase => putative acyl transferase
+[16:49:32] Modify product: probable flavoprotein subunit required for anaerobic carnitine metabolism => putative flavoprotein subunit required for anaerobic carnitine metabolism
+[16:49:32] Modify product: probable flavoprotein subunit required for anaerobic carnitine metabolism => putative flavoprotein subunit required for anaerobic carnitine metabolism
+[16:49:32] Modify product: 16S rRNA m62A1518,m62A1519 dimethyltransferase => 16S rRNA,m62A1519 dimethyltransferase
+[16:49:32] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:32] Modify product: conserved protein => hypothetical protein
+[16:49:32] Modify product: 16S rRNA m4C1402 methyltransferase => 16S rRNA methyltransferase
+[16:49:32] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:32] Modify product: conserved protein => hypothetical protein
+[16:49:32] Modify product: conserved protein => hypothetical protein
+[16:49:32] Modify product: predicted protein => putative protein
+[16:49:32] Modify product: predicted polysaccharide deacetylase lipoprotein => putative polysaccharide deacetylase lipoprotein
+[16:49:32] Modify product: predicted transposase => putative transposase
+[16:49:32] Modify product: predicted transposase => putative transposase
+[16:49:32] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:32] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:32] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:32] Modify product: probable pilin chaperone similar to PapD => putative pilin chaperone similar to PapD
+[16:49:32] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:32] Modify product: predicted DNA-binding transcriptional regulator of maltose metabolism => putative DNA-binding transcriptional regulator of maltose metabolism
+[16:49:32] Modify product: predicted ATP-dependent helicase => putative ATP-dependent helicase
+[16:49:32] Modify product: predicted outer membrane export usher protein => putative outer membrane export usher protein
+[16:49:33] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:33] Modify product: conserved protein => hypothetical protein
+[16:49:33] Modify product: predicted lyase => putative lyase
+[16:49:33] Modify product: modulator of Rho-dependent transcription termination => hypothetical protein
+[16:49:33] Modify product: conserved protein => hypothetical protein
+[16:49:33] Modify product: conserved protein => hypothetical protein
+[16:49:33] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:33] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:33] Modify product: conserved protein => hypothetical protein
+[16:49:33] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:33] Modify product: conserved protein => hypothetical protein
+[16:49:33] Modify product: predicted S-adenosylmethionine-dependent methyltransferase => putative S-adenosylmethionine-dependent methyltransferase
+[16:49:33] Modify product: predicted S-adenosyl-L-methionine-dependent methyltransferase => putative S-adenosyl-L-methionine-dependent methyltransferase
+[16:49:33] Modify product: predicted C-N hydrolase family amidase, NAD(P)-binding => putative C-N hydrolase family amidase, NAD(P)-binding
+[16:49:33] Modify product: predicted amidotransferase => putative amidotransferase
+[16:49:33] Modify product: conserved protein => hypothetical protein
+[16:49:33] Modify product: predicted lipoprotein and C40 family peptidase => putative lipoprotein and C40 family peptidase
+[16:49:33] Modify product: predicted colanic acid biosynthesis glycosyl transferase => putative colanic acid biosynthesis glycosyl transferase
+[16:49:33] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:49:34] Modify product: predicted ribosomal protein => putative ribosomal protein
+[16:49:34] Modify product: predicted ribosomal protein => putative ribosomal protein
+[16:49:34] Modify product: predicted hydrolase => putative hydrolase
+[16:49:34] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:34] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:34] Modify product: predicted oxidoreductase with FAD/NAD(P)-binding domain and dimerization domain => putative oxidoreductase with FAD/NAD(P)-binding domain and dimerization domain protein
+[16:49:34] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:34] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:34] Modify product: predicted amino acid dehydrogenase with NAD(P)-binding domain and ferridoxin-like domain => putative amino acid dehydrogenase with NAD(P)-binding domain and ferridoxin-like domain protein
+[16:49:34] Modify product: predicted transporter => putative transporter
+[16:49:34] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:34] Modify product: predicted protein => putative protein
+[16:49:34] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:34] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:34] Modify product: predicted transcriptional regulator with ankyrin domain => putative transcriptional regulator with ankyrin domain protein
+[16:49:34] Modify product: predicted protein => putative protein
+[16:49:34] Modify product: predicted acyl-CoA synthetase with NAD(P)-binding domain and succinyl-CoA synthetase domain => putative acyl-CoA synthetase with NAD(P)-binding domain and succinyl-CoA synthetase domain protein
+[16:49:34] Modify product: conserved protein => hypothetical protein
+[16:49:34] Modify product: predicted carbamate kinase-like protein => putative carbamate kinase-like protein
+[16:49:34] Modify product: predicted deaminase with metallo-dependent hydrolase domain => putative deaminase with metallo-dependent hydrolase domain protein
+[16:49:34] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:49:34] Modify product: predicted neutral amino acid efflux system => putative neutral amino acid efflux system
+[16:49:34] Modify product: predicted protein => putative protein
+[16:49:34] Modify product: predicted protein => putative protein
+[16:49:34] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:34] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:34] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:34] Modify product: conserved protein => hypothetical protein
+[16:49:34] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:34] Modify product: conserved protein => hypothetical protein
+[16:49:34] Modify product: predicted protein => putative protein
+[16:49:34] Modify product: conserved protein => hypothetical protein
+[16:49:34] Modify product: conserved protein => hypothetical protein
+[16:49:34] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:34] Modify product: conserved protein => hypothetical protein
+[16:49:34] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:35] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:35] Modify product: conserved protein => hypothetical protein
+[16:49:35] Modify product: predicted transporter subunit: periplasmic-binding component of ABC superfamily => putative transporter subunit: periplasmic-binding component of ABC superfamily protein
+[16:49:35] Modify product: predicted multidrug transporter subunit of ABC superfamily: ATP-binding component => putative multidrug transporter subunit of ABC superfamily: ATP-binding component
+[16:49:35] Modify product: predicted multidrug transporter subunit of ABC superfamily: ATP-binding component => putative multidrug transporter subunit of ABC superfamily: ATP-binding component
+[16:49:35] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:49:35] Modify product: conserved protein => hypothetical protein
+[16:49:35] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:35] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:35] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:35] Modify product: conserved DNA-binding protein => hypothetical protein
+[16:49:35] Modify product: conserved protein => hypothetical protein
+[16:49:35] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:35] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:35] Modify product: predicted protease, membrane anchored => putative protease, membrane anchored
+[16:49:35] Modify product: predicted transporter subunit: ATP-binding component of ABC superfamily => putative transporter subunit: ATP-binding component of ABC superfamily protein
+[16:49:35] Modify product: predicted oxidoreductase with NAD(P)-binding Rossmann-fold domain => putative oxidoreductase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:35] Modify product: conserved protein => hypothetical protein
+[16:49:35] Modify product: predicted uracil/xanthine transporter => putative uracil/xanthine transporter
+[16:49:35] Modify product: predicted acyl-CoA synthetase with NAD(P)-binding Rossmann-fold domain => putative acyl-CoA synthetase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:35] Modify product: conserved protein => hypothetical protein
+[16:49:35] Modify product: conserved protein => hypothetical protein
+[16:49:35] Modify product: predicted carbamate kinase => putative carbamate kinase
+[16:49:35] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:35] Modify product: predicted RNA-binding protein => putative RNA-binding protein
+[16:49:35] Modify product: predicted protein => putative protein
+[16:49:36] Modify product: predicted sensory kinase in two-component regulatory system with YedW => putative sensory kinase in two-component regulatory system with YedW
+[16:49:36] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:36] Modify product: predicted DNA-binding transcriptional regulator, LYSR-type => putative DNA-binding transcriptional regulator, LYSR-type
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: 23S rRNA m3Ps1915 methyltransferase => 23S rRNA methyltransferase
+[16:49:36] Modify product: predicted adenosylcobalamin phosphatase/alpha-ribazole phosphatase => putative adenosylcobalamin phosphatase/alpha-ribazole phosphatase
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: conserved protein => hypothetical protein
+[16:49:36] Modify product: conserved outer membrane protein => hypothetical protein
+[16:49:36] Modify product: predicted tRNA ligase => putative tRNA ligase
+[16:49:36] Modify product: predicted ion transport protein => putative ion transport protein
+[16:49:36] Modify product: conserved protein involved in translation => hypothetical protein
+[16:49:36] Modify product: predicted protein with nucleoside triphosphate hydrolase domain => putative protein with nucleoside triphosphate hydrolase domain protein
+[16:49:37] Modify product: conserved protein => hypothetical protein
+[16:49:37] Modify product: predicted DNA-binding transcriptional regulator, DEOR-type => putative DNA-binding transcriptional regulator, DEOR-type
+[16:49:37] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:37] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:37] Modify product: predicted sensory kinase in two-component regulatory system with YedW => putative sensory kinase in two-component regulatory system with YedW
+[16:49:37] Modify product: predicted protein => putative protein
+[16:49:37] Modify product: conserved protein => hypothetical protein
+[16:49:37] Modify product: conserved metal-binding protein => hypothetical protein
+[16:49:37] Modify product: predicted lactam utilization protein => putative lactam utilization protein
+[16:49:37] Modify product: predicted regulator => putative regulator
+[16:49:37] Modify product: predicted L-galactonate oxidoreductase => putative L-galactonate oxidoreductase
+[16:49:37] Modify product: predicted periplasmic protein => putative periplasmic protein
+[16:49:37] Modify product: conserved protein => hypothetical protein
+[16:49:37] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:37] Modify product: conserved protein => hypothetical protein
+[16:49:37] Modify product: predicted hydratase => putative hydratase
+[16:49:37] Modify product: predicted kinase inhibitor => putative kinase inhibitor
+[16:49:37] Modify product: predicted transferase with NAD(P)-binding Rossmann-fold domain => putative transferase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:37] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:37] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:37] Modify product: conserved inner membrane protein; predicted DNA-binding transcriptional regulator => hypothetical protein
+[16:49:37] Modify product: predicted DNase => putative DNase
+[16:49:37] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:38] Modify product: predicted membrane fusion protein => putative membrane fusion protein
+[16:49:38] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:38] Modify product: conserved protein => hypothetical protein
+[16:49:38] Modify product: predicted transferase/phosphorylase => putative transferase/phosphorylase
+[16:49:38] Modify product: predicted dehydrogenase => putative dehydrogenase
+[16:49:38] Modify product: predicted protein => putative protein
+[16:49:38] Modify product: conserved protein => hypothetical protein
+[16:49:38] Modify product: conserved protein => hypothetical protein
+[16:49:38] Modify product: 23S rRNA m6A1618 methyltransferase => 23S rRNA methyltransferase
+[16:49:38] Modify product: predicted hydrolase, inner membrane => putative hydrolase, inner membrane
+[16:49:38] Modify product: predicted transporter => putative transporter
+[16:49:38] Modify product: predicted pyruvate formate lyase => putative pyruvate formate lyase
+[16:49:38] Modify product: predicted pyruvate formate lyase activating enzyme => putative pyruvate formate lyase activating enzyme
+[16:49:38] Modify product: predicted c-di-GMP-specific phosphodiesterase => putative c-di-GMP-specific phosphodiesterase
+[16:49:38] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:38] Modify product: predicted protein => putative protein
+[16:49:38] Modify product: predicted transporter => putative transporter
+[16:49:38] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:38] Modify product: predicted transporter => putative transporter
+[16:49:38] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:38] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:38] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:38] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:38] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:38] Modify product: conserved protein => hypothetical protein
+[16:49:38] Modify product: predicted NAD(P)H-binding oxidoreductase with NAD(P)-binding Rossmann-fold domain => putative NAD(P)H-binding oxidoreductase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:38] Modify product: conserved protein with NAD(P)-binding Rossmann-fold domain => hypothetical protein
+[16:49:38] Modify product: predicted transporter => putative transporter
+[16:49:38] Modify product: conserved protein with a nucleotide triphosphate hydrolase domain => hypothetical protein
+[16:49:38] Modify product: conserved protein => hypothetical protein
+[16:49:38] Modify product: probable 9-O-acetyl-N-acetylneuraminate esterase => putative 9-O-acetyl-N-acetylneuraminate esterase
+[16:49:39] Modify product: predicted hydrolase monomer => putative hydrolase monomer
+[16:49:39] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:39] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:39] Modify product: conserved protein => hypothetical protein
+[16:49:39] Modify product: conserved protein => hypothetical protein
+[16:49:39] Modify product: conserved protein => hypothetical protein
+[16:49:39] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:39] Modify product: predicted S-adenosylmethionine-dependent methyltransferase => putative S-adenosylmethionine-dependent methyltransferase
+[16:49:39] Modify product: conserved protein => hypothetical protein
+[16:49:39] Modify product: predicted metal-binding enzyme => putative metal-binding enzyme
+[16:49:39] Modify product: fused 23S rRNA m2G2445 methyltransferase and 23S rRNA m7G2069 methyltransferase => fused 23S rRNA methyltransferase and 23S rRNA m7G2069 methyltransferase
+[16:49:39] Modify product: conserved protein => hypothetical protein
+[16:49:39] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:39] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:39] Modify product: conserved protein => hypothetical protein
+[16:49:39] Modify product: predicted CoA-binding protein with NAD(P)-binding Rossmann-fold domain => putative CoA-binding protein with NAD(P)-binding Rossmann-fold domain protein
+[16:49:40] Modify product: 23S rRNA m5C1962 methyltransferase monomer => 23S rRNA methyltransferase monomer
+[16:49:40] Modify product: predicted regulator of phosphatidylethanolamine synthesis => putative regulator of phosphatidylethanolamine synthesis
+[16:49:40] Modify product: predicted 4Fe-4S membrane protein => putative 4Fe-4S membrane protein
+[16:49:40] Modify product: predicted protein => putative protein
+[16:49:40] Modify product: conserved protein => hypothetical protein
+[16:49:40] Modify product: predicted xanthine/uracil transporter => putative xanthine/uracil transporter
+[16:49:40] Modify product: predicted malonic semialdehyde reductase => putative malonic semialdehyde reductase
+[16:49:40] Modify product: predicted aminoacrylate hydrolase => putative aminoacrylate hydrolase
+[16:49:40] Modify product: predicted aminoacrylate peracid reductase => putative aminoacrylate peracid reductase
+[16:49:40] Modify product: hypothetical protein of the OFeT transport family => hypothetical protein of the OFeT transport family protein
+[16:49:40] Modify product: conserved protein => hypothetical protein
+[16:49:40] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:40] Modify product: predicted protein => putative protein
+[16:49:40] Modify product: predicted hydrolase => putative hydrolase
+[16:49:40] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:40] Modify product: conserved protein => hypothetical protein
+[16:49:40] Modify product: predicted protein => putative protein
+[16:49:40] Modify product: predicted cytochrome b561 => putative cytochrome b561
+[16:49:40] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:40] Modify product: conserved protein => hypothetical protein
+[16:49:40] Modify product: predicted oxidoreductase, NAD(P)-binding Rossmann-fold domain => putative oxidoreductase, NAD(P)-binding Rossmann-fold domain
+[16:49:40] Modify product: predicted protein => putative protein
+[16:49:40] Modify product: conserved protein => hypothetical protein
+[16:49:40] Modify product: KASIII => hypothetical protein
+[16:49:40] Modify product: KASII => hypothetical protein
+[16:49:40] Modify product: predicted aminodeoxychorismate lyase => putative aminodeoxychorismate lyase
+[16:49:40] Modify product: predicted metallodependent hydrolase => putative metallodependent hydrolase
+[16:49:40] Modify product: predicted protein => putative protein
+[16:49:40] Modify product: conserved protein => hypothetical protein
+[16:49:40] Modify product: predicted protein => putative protein
+[16:49:41] Modify product: protein deacetylase, Sir2 homolog => hypothetical protein
+[16:49:41] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:41] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:41] Modify product: conserved protein => hypothetical protein
+[16:49:41] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:41] Modify product: DLP12 prophage, conserved protein similar to phage 82 and lambda proteins => hypothetical protein
+[16:49:41] Modify product: bacteriophage lambda Bor protein homolog => hypothetical protein
+[16:49:41] Modify product: predicted inner membrane peptidase => putative inner membrane peptidase
+[16:49:41] Modify product: predicted protein => putative protein
+[16:49:41] Modify product: predicted protein => putative protein
+[16:49:41] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:41] Modify product: conserved protein => hypothetical protein
+[16:49:41] Modify product: predicted protein => putative protein
+[16:49:41] Modify product: predicted protein => putative protein
+[16:49:41] Modify product: predicted protein => putative protein
+[16:49:41] Modify product: conserved protein => hypothetical protein
+[16:49:41] Modify product: predicted isomerase/hydrolase => putative isomerase/hydrolase
+[16:49:41] Modify product: conserved protein => hypothetical protein
+[16:49:41] Modify product: conserved protein => hypothetical protein
+[16:49:42] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:42] Modify product: predicted IS protein => putative IS protein
+[16:49:42] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:49:42] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:49:42] Modify product: predicted cation transport regulator => putative cation transport regulator
+[16:49:42] Modify product: predicted cation transport protein => putative cation transport protein
+[16:49:42] Modify product: conserved protein => hypothetical protein
+[16:49:42] Modify product: predicted invasin => putative invasin
+[16:49:42] Modify product: KASIII => hypothetical protein
+[16:49:42] Modify product: predicted NAD(P)H-binding oxidoreductase with NAD(P)-binding Rossmann-fold domain => putative NAD(P)H-binding oxidoreductase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:42] Modify product: conserved protein => hypothetical protein
+[16:49:42] Modify product: conserved protein => hypothetical protein
+[16:49:42] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:42] Modify product: predicted protein => putative protein
+[16:49:42] Modify product: predicted enzyme => putative enzyme
+[16:49:42] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:42] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:42] Modify product: probable 9-O-acetyl-N-acetylneuraminate esterase => putative 9-O-acetyl-N-acetylneuraminate esterase
+[16:49:42] Modify product: conserved protein => hypothetical protein
+[16:49:42] Modify product: conserved protein => hypothetical protein
+[16:49:42] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:42] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:42] Modify product: predicted inner membrane peptidase => putative inner membrane peptidase
+[16:49:42] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:43] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: predicted glucosyltransferase => putative glucosyltransferase
+[16:49:43] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:49:43] Modify product: predicted enzyme => putative enzyme
+[16:49:43] Modify product: predicted oxidoreductase, NADH-binding => putative oxidoreductase, NADH-binding
+[16:49:43] Modify product: predicted hydrolase => putative hydrolase
+[16:49:43] Modify product: predicted sugar transporter subunit: ATP-binding component of ABC superfamily => putative sugar transporter subunit: ATP-binding component of ABC superfamily protein
+[16:49:43] Modify product: predicted DNA-binding transcriptional regulator, LacI type => putative DNA-binding transcriptional regulator, LacI type
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:43] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:43] Modify product: predicted hydrolase => putative hydrolase
+[16:49:43] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:43] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:43] Modify product: conserved protein with endonuclease activity => hypothetical protein
+[16:49:43] Modify product: predicted Zn(II) transporter => putative Zn(II) transporter
+[16:49:43] Modify product: predicted C32 tRNA thiolase => putative C32 tRNA thiolase
+[16:49:43] Modify product: predicted pyruvate:flavodoxin oxidoreductase => putative pyruvate:flavodoxin oxidoreductase
+[16:49:43] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: predicted hexapeptide repeat acetyltransferase => putative hexapeptide repeat acetyltransferase
+[16:49:43] Modify product: predicted oxidoreductase, NAD(P)-binding => putative oxidoreductase, NAD(P)-binding
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: predicted enzyme => putative enzyme
+[16:49:43] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:43] Modify product: predicted benzoate transporter => putative benzoate transporter
+[16:49:43] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:43] Modify product: predicted peptidase => putative peptidase
+[16:49:43] Modify product: predicted protein => putative protein
+[16:49:43] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:43] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:43] Modify product: probable TonB-dependent receptor => putative TonB-dependent receptor
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: predicted transposase => putative transposase
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:43] Modify product: conserved protein => hypothetical protein
+[16:49:44] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:44] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:44] Modify product: predicted anaerobic sulfatase maturation enzyme; predicted DNA-binding transcriptional regulator => putative anaerobic sulfatase maturation enzyme; predicted DNA-binding transcriptional regulator
+[16:49:44] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:44] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:44] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:44] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:44] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:44] Modify product: conserved protein => hypothetical protein
+[16:49:44] Modify product: predicted DNA-binding transcriptional regulator, LysR-type => putative DNA-binding transcriptional regulator, LysR-type
+[16:49:44] Modify product: predicted transporter => putative transporter
+[16:49:44] Modify product: predicted transport protein YdeE => putative transport protein YdeE
+[16:49:44] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:44] Modify product: conserved protein => hypothetical protein
+[16:49:45] Modify product: predicted mannonate dehydrogenase => putative mannonate dehydrogenase
+[16:49:45] Modify product: predicted transporter => putative transporter
+[16:49:45] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:49:45] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:45] Modify product: predicted protein => putative protein
+[16:49:45] Modify product: predicted protein => putative protein
+[16:49:45] Modify product: predicted dethiobiotin synthetase => putative dethiobiotin synthetase
+[16:49:45] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:45] Modify product: predicted transport protein YnfM => putative transport protein YnfM
+[16:49:45] Modify product: predicted peptidase => putative peptidase
+[16:49:45] Modify product: predicted protein => putative protein
+[16:49:45] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:45] Modify product: conserved protein => hypothetical protein
+[16:49:45] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:45] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:45] Modify product: conserved protein => hypothetical protein
+[16:49:45] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:45] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:45] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:46] Modify product: predicted transport protein YdhC => putative transport protein YdhC
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: predicted mono-oxygenase => putative mono-oxygenase
+[16:49:46] Modify product: conserved protein with FAD/NAD(P)-binding domain => hypothetical protein
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: predicted cytochrome => putative cytochrome
+[16:49:46] Modify product: predicted 4Fe-4S ferredoxin-type protein => putative 4Fe-4S ferredoxin-type protein
+[16:49:46] Modify product: predicted protein => putative protein
+[16:49:46] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:46] Modify product: predicted 4Fe-4S ferredoxin-type protein => putative 4Fe-4S ferredoxin-type protein
+[16:49:46] Modify product: predicted protein => putative protein
+[16:49:46] Modify product: predicted protein => putative protein
+[16:49:46] Modify product: predicted FAD-linked oxidoreductase => putative FAD-linked oxidoreductase
+[16:49:46] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: predicted transporter => putative transporter
+[16:49:46] Modify product: uncharacterised inner membrane protein YdiN => putative inner membrane protein YdiN
+[16:49:46] Modify product: predicted acyl-CoA dehydrogenase => putative acyl-CoA dehydrogenase
+[16:49:46] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:46] Modify product: predicted protein => putative protein
+[16:49:46] Modify product: predicted phosphotransferase/kinase => putative phosphotransferase/kinase
+[16:49:46] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:46] Modify product: predicted inner membrane protein regulated by LexA => putative inner membrane protein regulated by LexA
+[16:49:46] Modify product: predicted transporter => putative transporter
+[16:49:46] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: predicted phosphatidyl transferase, inner membrane protein => putative phosphatidyl transferase, inner membrane protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:47] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:47] Modify product: predicted kinase => putative kinase
+[16:49:47] Modify product: predicted aldolase => putative aldolase
+[16:49:47] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:49:47] Modify product: predicted transporter => putative transporter
+[16:49:47] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:47] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:47] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved outer membrane protein => hypothetical protein
+[16:49:47] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: predicted NUDIX hydrolase with low 3-phosphohydroxypyruvate phosphatase activity => putative NUDIX hydrolase with low 3-phosphohydroxypyruvate phosphatase activity
+[16:49:47] Modify product: predicted phosphodiesterase => putative phosphodiesterase
+[16:49:47] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:47] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: predicted transporter => putative transporter
+[16:49:47] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: 16S rRNA m5C1407 methyltransferase => 16S rRNA methyltransferase
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved protein => hypothetical protein
+[16:49:47] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:47] Modify product: predicted protein => putative protein
+[16:49:47] Modify product: conserved protein regulated by LexA => hypothetical protein
+[16:49:47] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:48] Modify product: predicted peptidase => putative peptidase
+[16:49:48] Modify product: IS150 conserved protein InsB => hypothetical protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: conserved protein => hypothetical protein
+[16:49:48] Modify product: predicted hydrolase => putative hydrolase
+[16:49:48] Modify product: conserved protein => hypothetical protein
+[16:49:48] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:48] Modify product: predicted methyltransferase => putative methyltransferase
+[16:49:48] Modify product: predicted S-adenosyl-L-methionine-dependent methyltransferase => putative S-adenosyl-L-methionine-dependent methyltransferase
+[16:49:48] Modify product: predicted metal-binding enzyme => putative metal-binding enzyme
+[16:49:48] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:48] Modify product: predicted response regulator in two-component system with YpdA => putative response regulator in two-component system with YpdA
+[16:49:48] Modify product: predicted ferritin-like protein => putative ferritin-like protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: conserved metal-binding protein => hypothetical protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: predicted transporter subunit: ATP-binding component of ABC superfamily => putative transporter subunit: ATP-binding component of ABC superfamily protein
+[16:49:48] Modify product: predicted transporter subunit: membrane component of ABC superfamily => putative transporter subunit: membrane component of ABC superfamily protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:48] Modify product: conserved protein => hypothetical protein
+[16:49:48] Modify product: predicted protein => putative protein
+[16:49:48] Modify product: predicted transposase => putative transposase
+[16:49:49] Modify product: predicted phosphatase => putative phosphatase
+[16:49:49] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:49] Modify product: predicted protein => putative protein
+[16:49:49] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:49] Modify product: predicted phosphohydrolase => putative phosphohydrolase
+[16:49:49] Modify product: predicted sensory kinase in two-component regulatory system with YedW => putative sensory kinase in two-component regulatory system with YedW
+[16:49:49] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:49] Modify product: conserved protein => hypothetical protein
+[16:49:49] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:49] Modify product: IS150 conserved protein InsB => hypothetical protein
+[16:49:49] Modify product: e14 prophage; conserved protein => hypothetical protein
+[16:49:49] Modify product: bacteriophage lambda Bor protein homolog => hypothetical protein
+[16:49:49] Modify product: KASI => hypothetical protein
+[16:49:49] Modify product: conserved protein => hypothetical protein
+[16:49:49] Modify product: conserved protein => hypothetical protein
+[16:49:50] Modify product: conserved protein => hypothetical protein
+[16:49:50] Modify product: conserved protein => hypothetical protein
+[16:49:50] Modify product: predicted glucosyltransferase => putative glucosyltransferase
+[16:49:50] Modify product: predicted acyl transferase (pseudogene) => putative acyl transferase (pseudogene)
+[16:49:50] Modify product: predicted hydrolase => putative hydrolase
+[16:49:50] Modify product: CP4-6 prophage; conserved protein => hypothetical protein
+[16:49:50] Modify product: conserved protein with nucleoside triphosphate hydrolase domain => hypothetical protein
+[16:49:50] Modify product: conserved protein => hypothetical protein
+[16:49:50] Modify product: conserved protein => hypothetical protein
+[16:49:50] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:50] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:50] Modify product: predicted epimerase, with NAD(P)-binding Rossmann-fold domain => putative epimerase, with NAD(P)-binding Rossmann-fold domain
+[16:49:50] Modify product: predicted lipopolysaccharide biosynthesis protein => putative lipopolysaccharide biosynthesis protein
+[16:49:50] Modify product: predicted acyl transferase => putative acyl transferase
+[16:49:50] Modify product: predicted uridylyltransferase subunit with GalU => putative uridylyltransferase subunit with GalU
+[16:49:50] Modify product: predicted colanic acid biosynthesis protein => putative colanic acid biosynthesis protein
+[16:49:50] Modify product: predicted colanic biosynthesis glycosyl transferase => putative colanic biosynthesis glycosyl transferase
+[16:49:50] Modify product: predicted colanic acid biosynthesis pyruvyl transferase => putative colanic acid biosynthesis pyruvyl transferase
+[16:49:50] Modify product: predicted colanic acid biosynthsis UDP-glucose lipid carrier transferase => putative colanic acid biosynthsis UDP-glucose lipid carrier transferase
+[16:49:50] Modify product: predicted colanic biosynthesis glycosyl transferase => putative colanic biosynthesis glycosyl transferase
+[16:49:50] Modify product: predicted acyl transferase => putative acyl transferase
+[16:49:50] Modify product: predicted colanic acid biosynthesis glycosyl transferase => putative colanic acid biosynthesis glycosyl transferase
+[16:49:51] Modify product: predicted colanic acid polymerase => putative colanic acid polymerase
+[16:49:51] Modify product: predicted colanic acid biosynthesis glycosyl transferase => putative colanic acid biosynthesis glycosyl transferase
+[16:49:51] Modify product: predicted colanic acid biosynthesis acyl transferase => putative colanic acid biosynthesis acyl transferase
+[16:49:51] Modify product: predicted colanic acid biosynthesis glycosyl transferase => putative colanic acid biosynthesis glycosyl transferase
+[16:49:51] Modify product: predicted assembly protein AsmA => putative assembly protein AsmA
+[16:49:51] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: predicted transport protein MdtD => putative transport protein MdtD
+[16:49:51] Modify product: predicted sensory kinase in two-component regulatory system with YedW => putative sensory kinase in two-component regulatory system with YedW
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: predicted peptidase => putative peptidase
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: predicted hydrolase => putative hydrolase
+[16:49:51] Modify product: predicted kinase => putative kinase
+[16:49:51] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:51] Modify product: predicted hydrolase => putative hydrolase
+[16:49:51] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: predicted transporter subunit: ATP-binding component of ABC superfamily => putative transporter subunit: ATP-binding component of ABC superfamily protein
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: predicted protein => putative protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: conserved protein => hypothetical protein
+[16:49:51] Modify product: predicted response regulator in two-component system with YpdA => putative response regulator in two-component system with YpdA
+[16:49:51] Modify product: predicted sensory kinase in two-component system with YpdB => putative sensory kinase in two-component system with YpdB
+[16:49:51] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:51] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:51] Modify product: predicted oxidoreductase with NAD(P)-binding Rossmann-fold domain => putative oxidoreductase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:51] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:51] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:51] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:52] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:52] Modify product: predicted kinase => putative kinase
+[16:49:52] Modify product: predicted pseudouridine 5'-phosphate glycosidase => putative pseudouridine 5'-phosphate glycosidase
+[16:49:52] Modify product: predicted pseudouridine kinase => putative pseudouridine kinase
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:52] Modify product: predicted dehydrogenase, NAD-dependent => putative dehydrogenase, NAD-dependent
+[16:49:52] Modify product: predicted dehydrogenase, NAD-dependent => putative dehydrogenase, NAD-dependent
+[16:49:52] Modify product: predicted peptidase, outer membrane lipoprotein => putative peptidase, outer membrane lipoprotein
+[16:49:52] Modify product: predicted protein => putative protein
+[16:49:52] Modify product: predicted ATP-dependent helicase => putative ATP-dependent helicase
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:52] Modify product: predicted hydrolase, inner membrane => putative hydrolase, inner membrane
+[16:49:52] Modify product: predicted autotransporter outer membrane protein => putative autotransporter outer membrane protein
+[16:49:52] Modify product: predicted autotransporter outer membrane protein => putative autotransporter outer membrane protein
+[16:49:52] Modify product: predicted autotransporter outer membrane protein => putative autotransporter outer membrane protein
+[16:49:52] Modify product: predicted thiamine biosynthesis lipoprotein => putative thiamine biosynthesis lipoprotein
+[16:49:52] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:52] Modify product: predicted short chain fatty acid transporter => putative short chain fatty acid transporter
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:52] Modify product: predicted protein => putative protein
+[16:49:52] Modify product: predicted protein => putative protein
+[16:49:52] Modify product: predicted protein => putative protein
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:52] Modify product: predicted transporter => putative transporter
+[16:49:52] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:52] Modify product: conserved protein => hypothetical protein
+[16:49:53] Modify product: conserved protein => hypothetical protein
+[16:49:53] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:49:53] Modify product: predicted peptidase => putative peptidase
+[16:49:53] Modify product: predicted protein => putative protein
+[16:49:53] Modify product: conserved protein => hypothetical protein
+[16:49:53] Modify product: predicted inner membrane protein; putative S-transferase => putative inner membrane protein; putative S-transferase
+[16:49:53] Modify product: predicted Nudix hydrolase => putative Nudix hydrolase
+[16:49:53] Modify product: conserved protein with NAD(P)-binding Rossmann-fold domain => hypothetical protein
+[16:49:53] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:53] Modify product: predicted semialdehyde dehydrogenase => putative semialdehyde dehydrogenase
+[16:49:53] Modify product: predicted flagella assembly protein => putative flagella assembly protein
+[16:49:53] Modify product: predicted transport protein YfcJ => putative transport protein YfcJ
+[16:49:53] Modify product: KASI => hypothetical protein
+[16:49:53] Modify product: predicted protein => putative protein
+[16:49:53] Modify product: conserved inner membrane structural protein => hypothetical protein
+[16:49:53] Modify product: conserved protein, predicted endonuclease => hypothetical protein
+[16:49:53] Modify product: predicted protein => putative protein
+[16:49:53] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:53] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:53] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:53] Modify product: predicted periplasmic pilus chaperone => putative periplasmic pilus chaperone
+[16:49:53] Modify product: fimbrial usher protein, N-terminal fragment => hypothetical protein
+[16:49:53] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:53] Modify product: conserved protein => hypothetical protein
+[16:49:53] Modify product: long-chain fatty acid outer membrane porin; bacteriophage T2 binding => long-chain fatty acid outer membrane porin; bacteriophage T2 binding protein
+[16:49:54] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:54] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:49:54] Modify product: predicted CoA transferase, NAD(P)-binding => putative CoA transferase, NAD(P)-binding
+[16:49:54] Modify product: predicted protein => putative protein
+[16:49:54] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:54] Modify product: predicted sensory kinase in two-component system with YpdB => putative sensory kinase in two-component system with YpdB
+[16:49:54] Modify product: predicted response regulator in two-component system with YpdA => putative response regulator in two-component system with YpdA
+[16:49:54] Modify product: predicted ARAC-type regulatory protein => putative ARAC-type regulatory protein
+[16:49:54] Modify product: predicted enzyme IIC component of PTS => putative enzyme IIC component of PTS
+[16:49:54] Modify product: predicted enzyme IIB component of PTS => putative enzyme IIB component of PTS
+[16:49:54] Modify product: predicted ion channel protein => putative ion channel protein
+[16:49:54] Modify product: conserved protein => hypothetical protein
+[16:49:54] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:54] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:54] Modify product: conserved outer membrane protein => hypothetical protein
+[16:49:54] Modify product: predicted DNA-binding transcriptional regulator, LYSR-type => putative DNA-binding transcriptional regulator, LYSR-type
+[16:49:54] Modify product: predicted protein => putative protein
+[16:49:54] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:54] Modify product: predicted protein => putative protein
+[16:49:54] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:54] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:49:54] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:54] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:49:54] Modify product: predicted structural protein, ethanolamine utilization microcompartment => putative structural protein, ethanolamine utilization microcompartment
+[16:49:54] Modify product: predicted structural protein, ethanolamine utilization microcompartment => putative structural protein, ethanolamine utilization microcompartment
+[16:49:54] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:54] Modify product: predicted alcohol dehydrogenase in ethanolamine utilization => putative alcohol dehydrogenase in ethanolamine utilization
+[16:49:54] Modify product: predicted chaperonin, ethanolamine utilization protein => putative chaperonin, ethanolamine utilization protein
+[16:49:54] Modify product: predicted aldehyde dehydrogenase, ethanolamine utilization protein => putative aldehyde dehydrogenase, ethanolamine utilization protein
+[16:49:54] Modify product: predicted carboxysome structural protein => putative carboxysome structural protein
+[16:49:54] Modify product: predicted structural protein, ethanolamine utilization microcompartment => putative structural protein, ethanolamine utilization microcompartment
+[16:49:54] Modify product: predicted cobalamine adenosyltransferase in ethanolamine utilization => putative cobalamine adenosyltransferase in ethanolamine utilization
+[16:49:54] Modify product: conserved protein => hypothetical protein
+[16:49:54] Modify product: conserved protein with nucleoside triphosphate hydrolase domain => hypothetical protein
+[16:49:54] Modify product: predicted structural protein, ethanolamine utilization microcompartment => putative structural protein, ethanolamine utilization microcompartment
+[16:49:54] Modify product: predicted protein => putative protein
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: predicted protein => putative protein
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:55] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:55] Modify product: predicted protein => putative protein
+[16:49:55] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:55] Modify product: predicted protein => putative protein
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: 23S rRNA m2A2503 methyltransferase and tRNA m2A37 methyltransferase => 23S rRNA methyltransferase and tRNA m2A37 methyltransferase
+[16:49:55] Modify product: predicted peptidase => putative peptidase
+[16:49:55] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: predicted DNA-binding transcriptional regulator, NAGC-like => putative DNA-binding transcriptional regulator, NAGC-like
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:55] Modify product: predicted 4Fe-4S cluster-containing protein => putative 4Fe-4S cluster-containing protein
+[16:49:55] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:55] Modify product: predicted methyltransferase => putative methyltransferase
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:55] Modify product: predicted protein => putative protein
+[16:49:55] Modify product: conserved protein => hypothetical protein
+[16:49:56] Modify product: predicted periplasmic protein involved in swarming motility => putative periplasmic protein involved in swarming motility
+[16:49:56] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:49:56] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:49:56] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:56] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:56] Modify product: predicted protein => putative protein
+[16:49:56] Modify product: predicted protein => putative protein
+[16:49:56] Modify product: predicted protein => putative protein
+[16:49:56] Modify product: predicted membrane protein => putative membrane protein
+[16:49:56] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:56] Modify product: predicted inner membrane protein with hydrolase activity => putative inner membrane protein with hydrolase activity
+[16:49:56] Modify product: predicted protein => putative protein
+[16:49:56] Modify product: predicted protein => putative protein
+[16:49:56] Modify product: predicted transporter => putative transporter
+[16:49:56] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:57] Modify product: predicted protein => putative protein
+[16:49:57] Modify product: predicted DNA-binding transcriptional regulator, DEOR-type => putative DNA-binding transcriptional regulator, DEOR-type
+[16:49:57] Modify product: predicted dehydrogenase, with NAD(P)-binding Rossmann-fold domain => putative dehydrogenase, with NAD(P)-binding Rossmann-fold domain
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:57] Modify product: predicted class II aldolase => putative class II aldolase
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:57] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:57] Modify product: predicted oxidoreductase with FAD/NAD(P)-binding domain => putative oxidoreductase with FAD/NAD(P)-binding domain protein
+[16:49:57] Modify product: predicted 4Fe-4S cluster-containing protein => putative 4Fe-4S cluster-containing protein
+[16:49:57] Modify product: predicted anti-terminator regulatory protein => putative anti-terminator regulatory protein
+[16:49:57] Modify product: predicted flavoprotein => putative flavoprotein
+[16:49:57] Modify product: predicted flavoprotein => putative flavoprotein
+[16:49:57] Modify product: predicted FAD-containing dehydrogenase => putative FAD-containing dehydrogenase
+[16:49:57] Modify product: predicted deoxygluconate dehydrogenase => putative deoxygluconate dehydrogenase
+[16:49:57] Modify product: predicted kinase => putative kinase
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:57] Modify product: predicted protein => putative protein
+[16:49:57] Modify product: 23S rRNA m5U1939 methyltransferase => 23S rRNA methyltransferase
+[16:49:57] Modify product: predicted flavoprotein => putative flavoprotein
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:57] Modify product: 23S rRNA 2'-O-ribose C2498 methyltransferase => 23S rRNA 2'-O-ribose methyltransferase
+[16:49:57] Modify product: conserved inner membrane protein => hypothetical protein
+[16:49:57] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:49:57] Modify product: predicted protein => putative protein
+[16:49:57] Modify product: predicted protein => putative protein
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:57] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: predicted protein => putative protein
+[16:49:58] Modify product: predicted racemase => putative racemase
+[16:49:58] Modify product: predicted 5-keto 4-deoxyuronate isomerase monomer => putative 5-keto 4-deoxyuronate isomerase monomer
+[16:49:58] Modify product: predicted acyltransferase => putative acyltransferase
+[16:49:58] Modify product: predicted carbamoyltransferase => putative carbamoyltransferase
+[16:49:58] Modify product: predicted peptidase => putative peptidase
+[16:49:58] Modify product: predicted amino acid kinase => putative amino acid kinase
+[16:49:58] Modify product: conserved protein with NAD(P)-binding Rossman fold => hypothetical protein
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: predicted oxidoreductase, Fe-S subunit => putative oxidoreductase, Fe-S subunit
+[16:49:58] Modify product: predicted chlorohydrolase/aminohydrolase => putative chlorohydrolase/aminohydrolase
+[16:49:58] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:58] Modify product: predicted transporter => putative transporter
+[16:49:58] Modify product: predicted oxidoreductase, 4Fe-4S ferredoxin-type subunit => putative oxidoreductase, 4Fe-4S ferredoxin-type subunit
+[16:49:58] Modify product: predicted oxidoreductase, inner membrane subunit => putative oxidoreductase, inner membrane subunit
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: predicted oxidoreductase, FAD/NAD(P)-binding domain => putative oxidoreductase, FAD/NAD(P)-binding domain
+[16:49:58] Modify product: predicted protein => putative protein
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:58] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:58] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: conserved protein with nucleoside triphosphate hydrolase domain => hypothetical protein
+[16:49:58] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:58] Modify product: predicted dehydrogenase => putative dehydrogenase
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: 16S rRNA m3U1498 methyltransferase monomer => 16S rRNA methyltransferase monomer
+[16:49:58] Modify product: predicted protein => putative protein
+[16:49:58] Modify product: predicted transcription antitermination factor => putative transcription antitermination factor
+[16:49:58] Modify product: predicted transporter => putative transporter
+[16:49:58] Modify product: predicted enzyme => putative enzyme
+[16:49:58] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:58] Modify product: conserved protein => hypothetical protein
+[16:49:58] Modify product: predicted protein => putative protein
+[16:49:59] Modify product: predicted protein => putative protein
+[16:49:59] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:49:59] Modify product: IS150 conserved protein InsB => hypothetical protein
+[16:49:59] Modify product: probable 9-O-acetyl-N-acetylneuraminate esterase => putative 9-O-acetyl-N-acetylneuraminate esterase
+[16:49:59] Modify product: CP4-6 prophage; conserved protein => hypothetical protein
+[16:49:59] Modify product: predicted exopolysaccharide export protein => putative exopolysaccharide export protein
+[16:49:59] Modify product: predicted oxidoreductase => putative oxidoreductase
+[16:49:59] Modify product: predicted secretion pathway protein, M-type protein, membrane anchored => putative secretion pathway protein, M-type protein, membrane anchored
+[16:49:59] Modify product: predicted secretion pathway protein, C-type protein => putative secretion pathway protein, C-type protein
+[16:49:59] Modify product: predicted lipoprotein => putative lipoprotein
+[16:49:59] Modify product: conserved protein => hypothetical protein
+[16:49:59] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:49:59] Modify product: predicted NAD(P)H-binding oxidoreductase with NAD(P)-binding Rossmann-fold domain => putative NAD(P)H-binding oxidoreductase with NAD(P)-binding Rossmann-fold domain protein
+[16:49:59] Modify product: conserved protein => hypothetical protein
+[16:49:59] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:49:59] Modify product: predicted protein with nucleoside triphosphate hydrolase domain => putative protein with nucleoside triphosphate hydrolase domain protein
+[16:49:59] Modify product: predicted protein with nucleoside triphosphate hydrolase domain => putative protein with nucleoside triphosphate hydrolase domain protein
+[16:49:59] Modify product: predicted protein with nucleoside triphosphate hydrolase domain => putative protein with nucleoside triphosphate hydrolase domain protein
+[16:49:59] Modify product: predicted maturation peptidase for hydrogenase 2 => putative maturation peptidase for hydrogenase 2
+[16:49:59] Modify product: predicted hydrogenase 2 cytochrome b type component => putative hydrogenase 2 cytochrome b type component
+[16:50:00] Modify product: predicted protein => putative protein
+[16:50:00] Modify product: predicted hydrolase => putative hydrolase
+[16:50:00] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:00] Modify product: predicted glutathionylspermidine synthase, with NAD(P)-binding Rossmann-fold domain => putative glutathionylspermidine synthase, with NAD(P)-binding Rossmann-fold domain
+[16:50:00] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted mannonate dehydrogenase => putative mannonate dehydrogenase
+[16:50:00] Modify product: predicted L-galactonate oxidoreductase => putative L-galactonate oxidoreductase
+[16:50:00] Modify product: predicted transporter subunit => putative transporter subunit
+[16:50:00] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:50:00] Modify product: predicted sensory kinase in two-component regulatory system with YedW => putative sensory kinase in two-component regulatory system with YedW
+[16:50:00] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:00] Modify product: predicted dehydrogenase => putative dehydrogenase
+[16:50:00] Modify product: conserved outer membrane protein => hypothetical protein
+[16:50:00] Modify product: predicted enzyme => putative enzyme
+[16:50:00] Modify product: predicted dioxygenase => putative dioxygenase
+[16:50:00] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:50:00] Modify product: predicted fimbrial-like adhesin protein => putative fimbrial-like adhesin protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted glycogen synthesis protein => putative glycogen synthesis protein
+[16:50:00] Modify product: predicted adenylate cyclase => putative adenylate cyclase
+[16:50:00] Modify product: predicted signal transduction protein (SH3 domain) => putative signal transduction protein (SH3 domain)
+[16:50:00] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: 23S rRNA m2G1835 methyltransferase => 23S rRNA methyltransferase
+[16:50:00] Modify product: predicted metal-dependent hydrolase => putative metal-dependent hydrolase
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted NAD(P)-binding dehydrogenase => putative NAD(P)-binding dehydrogenase
+[16:50:00] Modify product: predicted membrane-bound redox modulator that is induced by high pH => putative membrane-bound redox modulator that is induced by high pH
+[16:50:00] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted quinol oxidase subunit => putative quinol oxidase subunit
+[16:50:00] Modify product: predicted DNA-binding transcriptional regulator LYSR-type => putative DNA-binding transcriptional regulator LYSR-type
+[16:50:00] Modify product: predicted protein => putative protein
+[16:50:00] Modify product: conserved protein => hypothetical protein
+[16:50:00] Modify product: predicted L-PSP (mRNA) endoribonuclease => putative L-PSP (mRNA) endoribonuclease
+[16:50:01] Modify product: predicted truncated N-acetylgalactosamine-6-phosphate deacetylase => putative truncated N-acetylgalactosamine-6-phosphate deacetylase
+[16:50:01] Modify product: predicted galactosamine-6-phosphate isomerase => putative galactosamine-6-phosphate isomerase
+[16:50:01] Modify product: 16S rRNA 2'-O-ribose C1402 methyltransferase => 16S rRNA 2'-O-ribose methyltransferase
+[16:50:01] Modify product: conserved protein => hypothetical protein
+[16:50:01] Modify product: predicted permease => putative permease
+[16:50:01] Modify product: predicted nucleoside-diphosphate-sugar epimerase => putative nucleoside-diphosphate-sugar epimerase
+[16:50:01] Modify product: conserved protein => hypothetical protein
+[16:50:01] Modify product: predicted endonuclease => putative endonuclease
+[16:50:01] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:50:01] Modify product: predicted lipid carrier protein => putative lipid carrier protein
+[16:50:01] Modify product: predicted peptidase (collagenase-like) => putative peptidase (collagenase-like)
+[16:50:01] Modify product: predicted protease => putative protease
+[16:50:01] Modify product: conserved protein => hypothetical protein
+[16:50:01] Modify product: transcription termination/antitermination L factor => hypothetical protein
+[16:50:01] Modify product: predicted hydrolase, inner membrane => putative hydrolase, inner membrane
+[16:50:01] Modify product: 23S rRNA 2'-O-ribose U2552 methyltransferase => 23S rRNA 2'-O-ribose methyltransferase
+[16:50:01] Modify product: predicted RNA-binding protein => putative RNA-binding protein
+[16:50:01] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:01] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:01] Modify product: predicted P-loop containing ATPase => putative P-loop containing ATPase
+[16:50:01] Modify product: predicted protein => putative protein
+[16:50:01] Modify product: isoprenoid biosynthesis protein with amidotransferase-like domain => isoprenoid biosynthesis protein with amidotransferase-like domain protein
+[16:50:01] Modify product: predicted Fe-S oxidoreductase => putative Fe-S oxidoreductase
+[16:50:01] Modify product: conserved protein => hypothetical protein
+[16:50:01] Modify product: predicted N-acetylmannosamine-6-phosphate epimerase => putative N-acetylmannosamine-6-phosphate epimerase
+[16:50:01] Modify product: conserved protein with nucleoside triphosphate hydrolase domain => hypothetical protein
+[16:50:01] Modify product: conserved protein => hypothetical protein
+[16:50:01] Modify product: predicted barnase inhibitor => putative barnase inhibitor
+[16:50:01] Modify product: conserved membrane protein, predicted transporter => hypothetical protein
+[16:50:01] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: predicted oxidoreductase, NAD(P)-binding => putative oxidoreductase, NAD(P)-binding
+[16:50:02] Modify product: predicted kinase => putative kinase
+[16:50:02] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:02] Modify product: predicted membrane protein => putative membrane protein
+[16:50:02] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: predicted DNA topoisomerase => putative DNA topoisomerase
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:02] Modify product: predicted protein => putative protein
+[16:50:02] Modify product: predicted hydrolase => putative hydrolase
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: predicted phosphoribulokinase => putative phosphoribulokinase
+[16:50:02] Modify product: conserved protein => hypothetical protein
+[16:50:02] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:02] Modify product: predicted protein => putative protein
+[16:50:02] Modify product: conserved secreted peptide => hypothetical protein
+[16:50:03] Modify product: conserved protein => hypothetical protein
+[16:50:03] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:03] Modify product: predicted protein => putative protein
+[16:50:03] Modify product: predicted hydrolase => putative hydrolase
+[16:50:03] Modify product: predicted mutase => putative mutase
+[16:50:03] Modify product: predicted amino acid racemase => putative amino acid racemase
+[16:50:03] Modify product: conserved protein => hypothetical protein
+[16:50:03] Modify product: conserved protein => hypothetical protein
+[16:50:03] Modify product: predicted transposase => putative transposase
+[16:50:03] Modify product: predicted transcriptional accessory protein => putative transcriptional accessory protein
+[16:50:03] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:03] Modify product: predicted transposase => putative transposase
+[16:50:03] Modify product: predicted protein => putative protein
+[16:50:03] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:04] Modify product: conserved protein => hypothetical protein
+[16:50:04] Modify product: predicted oxidoreductase with NAD(P)-binding Rossmann-fold domain => putative oxidoreductase with NAD(P)-binding Rossmann-fold domain protein
+[16:50:04] Modify product: predicted acetyltransferase => putative acetyltransferase
+[16:50:04] Modify product: conserved protein => hypothetical protein
+[16:50:04] Modify product: probable maturation factor for PanD => putative maturation factor for PanD
+[16:50:04] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:04] Modify product: conserved inner membrane enzyme => hypothetical protein
+[16:50:04] Modify product: conserved protein involved in bacteriophage adsorption => hypothetical protein
+[16:50:04] Modify product: predicted transport protein YhhS => putative transport protein YhhS
+[16:50:04] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:04] Modify product: predicted transporter subunit: membrane component of ABC superfamily => putative transporter subunit: membrane component of ABC superfamily protein
+[16:50:04] Modify product: predicted HlyD family secretion protein => putative HlyD family secretion protein
+[16:50:04] Modify product: predicted oxidoreductase with FAD/NAD(P)-binding domain => putative oxidoreductase with FAD/NAD(P)-binding domain protein
+[16:50:04] Modify product: predicted universal stress (ethanol tolerance) protein B => putative universal stress (ethanol tolerance) protein B
+[16:50:05] Modify product: 16S rRNA m2G1516 methyltransferase => 16S rRNA methyltransferase
+[16:50:05] Modify product: 23S rRNA m6A2030 methyltransferase => 23S rRNA methyltransferase
+[16:50:05] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:05] Modify product: predicted Mg(2+) transport ATPase => putative Mg(2+) transport ATPase
+[16:50:05] Modify product: predicted cytochrome C peroxidase => putative cytochrome C peroxidase
+[16:50:05] Modify product: predicted DNA-binding response regulator in two-component regulatory system => putative DNA-binding response regulator in two-component regulatory system
+[16:50:05] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:05] Modify product: predicted outer membrane biogenesis protein => putative outer membrane biogenesis protein
+[16:50:05] Modify product: predicted zinc-dependent peptidase => putative zinc-dependent peptidase
+[16:50:05] Modify product: predicted diguanylate cyclase => putative diguanylate cyclase
+[16:50:05] Modify product: predicted cellulose biosynthesis protein => putative cellulose biosynthesis protein
+[16:50:05] Modify product: conserved protein => hypothetical protein
+[16:50:05] Modify product: conserved protein => hypothetical protein
+[16:50:05] Modify product: predicted protein => putative protein
+[16:50:05] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:05] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:50:05] Modify product: predicted outer membrane lipoprotein => putative outer membrane lipoprotein
+[16:50:05] Modify product: conserved protein => hypothetical protein
+[16:50:05] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:05] Modify product: predicted protein => putative protein
+[16:50:05] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:05] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:05] Modify product: conserved protein => hypothetical protein
+[16:50:05] Modify product: predicted hydrogenase, 4Fe-4S ferredoxin-type component => putative hydrogenase, 4Fe-4S ferredoxin-type component
+[16:50:05] Modify product: conserved protein => hypothetical protein
+[16:50:05] Modify product: predicted L-xylulose 5-phosphate 3-epimerase => putative L-xylulose 5-phosphate 3-epimerase
+[16:50:05] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:06] Modify product: predicted Fe-containing alcohol dehydrogenase => putative Fe-containing alcohol dehydrogenase
+[16:50:06] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:06] Modify product: predicted protein => putative protein
+[16:50:06] Modify product: conserved protein => hypothetical protein
+[16:50:06] Modify product: predicted rhodanese-related sulfurtransferase => putative rhodanese-related sulfurtransferase
+[16:50:06] Modify product: predicted glycosyl transferase => putative glycosyl transferase
+[16:50:06] Modify product: conserved protein => hypothetical protein
+[16:50:06] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:06] Modify product: conserved protein => hypothetical protein
+[16:50:06] Modify product: CP4-6 prophage; conserved protein => hypothetical protein
+[16:50:06] Modify product: predicted outer membrane usher protein => putative outer membrane usher protein
+[16:50:06] Modify product: predicted pilin chaperone => putative pilin chaperone
+[16:50:06] Modify product: conserved protein => hypothetical protein
+[16:50:06] Modify product: conserved protein => hypothetical protein
+[16:50:06] Modify product: CP4-6 prophage; conserved protein => hypothetical protein
+[16:50:07] Modify product: predicted protein => putative protein
+[16:50:07] Modify product: conserved protein => hypothetical protein
+[16:50:07] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:07] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:07] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:07] Modify product: predicted transporter => putative transporter
+[16:50:07] Modify product: conserved outer membrane protein => hypothetical protein
+[16:50:07] Modify product: conserved protein => hypothetical protein
+[16:50:07] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:07] Modify product: predicted lipoprotein => putative lipoprotein
+[16:50:07] Modify product: conserved protein => hypothetical protein
+[16:50:07] Modify product: predicted phosphopantetheinyl transferase => putative phosphopantetheinyl transferase
+[16:50:07] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:07] Modify product: predicted 6-phosphogluconolactonase => putative 6-phosphogluconolactonase
+[16:50:07] Modify product: predicted xylanase => putative xylanase
+[16:50:08] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:08] Modify product: conserved protein => hypothetical protein
+[16:50:08] Modify product: predicted ATP-dependent protease => putative ATP-dependent protease
+[16:50:08] Modify product: transcription termination factor Rho monomer; polarity suppressor => hypothetical protein
+[16:50:08] Modify product: Enterobacterial Common Antigen (ECA) polysaccharide chain length modulation protein => Enterobacterial Common Antigen  polysaccharide chain length modulation protein
+[16:50:08] Modify product: predicted Wzy protein involved in ECA polysaccharide chain elongation => putative Wzy protein involved in ECA polysaccharide chain elongation
+[16:50:08] Modify product: predicted anaerobic sulfatase maturation enzyme => putative anaerobic sulfatase maturation enzyme
+[16:50:08] Modify product: predicted protoheme IX synthesis protein => putative protoheme IX synthesis protein
+[16:50:08] Modify product: conserved protein => hypothetical protein
+[16:50:08] Modify product: predicted lipoprotein => putative lipoprotein
+[16:50:08] Modify product: conserved protein => hypothetical protein
+[16:50:08] Modify product: predicted protein => putative protein
+[16:50:08] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:08] Modify product: predicted chloramphenicol resistance permease => putative chloramphenicol resistance permease
+[16:50:08] Modify product: conserved protein => hypothetical protein
+[16:50:08] Modify product: conserved protein => hypothetical protein
+[16:50:08] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:08] Modify product: predicted amino acid kinase => putative amino acid kinase
+[16:50:08] Modify product: conserved protein => hypothetical protein
+[16:50:08] Modify product: predicted acyl-CoA synthetase with NAD(P)-binding domain and succinyl-CoA synthetase domain => putative acyl-CoA synthetase with NAD(P)-binding domain and succinyl-CoA synthetase domain protein
+[16:50:08] Modify product: predicted protein => putative protein
+[16:50:08] Modify product: predicted hydrolase => putative hydrolase
+[16:50:09] Modify product: predicted recombination limiting protein => putative recombination limiting protein
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: predicted elongation factor => putative elongation factor
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: predicted endonuclease => putative endonuclease
+[16:50:09] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:09] Modify product: predicted sugar kinase => putative sugar kinase
+[16:50:09] Modify product: predicted aldolase => putative aldolase
+[16:50:09] Modify product: predicted oxidoreductase, Zn-dependent and NAD(P)-binding => putative oxidoreductase, Zn-dependent and NAD(P)-binding
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:09] Modify product: predicted acetyltransferase => putative acetyltransferase
+[16:50:09] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: conserved hypothetical protein of the NlpC/P60 peptidase superfamily => hypothetical protein
+[16:50:09] Modify product: predicted permease => putative permease
+[16:50:09] Modify product: conserved protein => hypothetical protein
+[16:50:09] Modify product: probable pyruvate formate lyase 2 activating enzyme => putative pyruvate formate lyase 2 activating enzyme
+[16:50:09] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:09] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:10] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:10] Modify product: transcription termination factor NusG => hypothetical protein
+[16:50:10] Modify product: conserved protein => hypothetical protein
+[16:50:10] Modify product: conserved protein => hypothetical protein
+[16:50:10] Modify product: predicted acetyltransferase => putative acetyltransferase
+[16:50:11] Modify product: predicted dehydrogenase => putative dehydrogenase
+[16:50:11] Modify product: conserved protein => hypothetical protein
+[16:50:11] Modify product: predicted protein => putative protein
+[16:50:11] Modify product: predicted lipoprotein => putative lipoprotein
+[16:50:11] Modify product: conserved protein => hypothetical protein
+[16:50:11] Modify product: predicted porin => putative porin
+[16:50:11] Modify product: predicted phosphate starvation-inducible protein => putative phosphate starvation-inducible protein
+[16:50:11] Modify product: predicted stress response protein => putative stress response protein
+[16:50:11] Modify product: predicted 2,3-dehydroadipyl-CoA hydratase => putative 2,3-dehydroadipyl-CoA hydratase
+[16:50:11] Modify product: predicted dehydrogenase => putative dehydrogenase
+[16:50:11] Modify product: conserved protein => hypothetical protein
+[16:50:11] Modify product: conserved protein => hypothetical protein
+[16:50:11] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:11] Modify product: predicted c-di-GMP-specific phosphodiesterase => putative c-di-GMP-specific phosphodiesterase
+[16:50:11] Modify product: predicted permease => putative permease
+[16:50:11] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:12] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: predicted alkyl sulfatase => putative alkyl sulfatase
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:50:12] Modify product: predicted carbon-phosphorous lyase subunit => putative carbon-phosphorous lyase subunit
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: conserved protein with nucleoside triphosphate hydrolase domain => hypothetical protein
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: predicted DNA-binding response regulator in two-component system with YedV => putative DNA-binding response regulator in two-component system with YedV
+[16:50:12] Modify product: predicted metal-dependent hydrolase => putative metal-dependent hydrolase
+[16:50:12] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:50:12] Modify product: predicted pilin chaperone => putative pilin chaperone
+[16:50:12] Modify product: predicted acyltransferase with acyl-CoA N-acyltransferase domain => putative acyltransferase with acyl-CoA N-acyltransferase domain protein
+[16:50:12] Modify product: predicted protein => putative protein
+[16:50:12] Modify product: predicted protein => putative protein
+[16:50:12] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:12] Modify product: conserved protein => hypothetical protein
+[16:50:12] Modify product: predicted protein => putative protein
+[16:50:13] Modify product: predicted dehydrogenase, NAD-dependent => putative dehydrogenase, NAD-dependent
+[16:50:13] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:13] Modify product: RNA-binding protein that affects many cellular processes; homolog of mammalian Sm/Sm-like proteins => hypothetical protein
+[16:50:13] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:13] Modify product: 23S rRNA 2'-O-ribose G2251 methyltransferase monomer => 23S rRNA 2'-O-ribose methyltransferase monomer
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:13] Modify product: predicted transcriptional regulator effector protein => putative transcriptional regulator effector protein
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:13] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:13] Modify product: predicted synthetase/amidase => putative synthetase/amidase
+[16:50:13] Modify product: predicted protein => putative protein
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:13] Modify product: predicted protein => putative protein
+[16:50:13] Modify product: predicted 2,3-dehydroadipyl-CoA hydratase => putative 2,3-dehydroadipyl-CoA hydratase
+[16:50:13] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:13] Modify product: predicted cell envelope opacity-associated protein => putative cell envelope opacity-associated protein
+[16:50:13] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:13] Modify product: conserved protein => hypothetical protein
+[16:50:14] Modify product: predicted enamine/imine deaminase => putative enamine/imine deaminase
+[16:50:14] Modify product: predicted mRNA endoribonuclease => putative mRNA endoribonuclease
+[16:50:14] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[16:50:14] Modify product: predicted protein => putative protein
+[16:50:14] Modify product: predicted protein => putative protein
+[16:50:14] Modify product: predicted acetyltransferase => putative acetyltransferase
+[16:50:14] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:14] Modify product: predicted ATPase => putative ATPase
+[16:50:14] Modify product: predicted alcohol dehydrogenase, Zn-dependent and NAD(P)-binding => putative alcohol dehydrogenase, Zn-dependent and NAD(P)-binding
+[16:50:14] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:14] Modify product: predicted IS protein => putative IS protein
+[16:50:14] Modify product: CP4-6 prophage; conserved protein => hypothetical protein
+[16:50:14] Modify product: predicted glycosyl transferase => putative glycosyl transferase
+[16:50:14] Modify product: predicted lyase/synthase => putative lyase/synthase
+[16:50:14] Modify product: predicted enzyme IIB component of PTS => putative enzyme IIB component of PTS
+[16:50:14] Modify product: KpLE2 phage-like element; predicted endoglucanase with Zn-dependent exopeptidase domain => KpLE2 phage-like element; predicted endoglucanase with Zn-dependent exopeptidase domain protein
+[16:50:14] Modify product: conserved protein => hypothetical protein
+[16:50:14] Modify product: probable 9-O-acetyl-N-acetylneuraminate esterase => putative 9-O-acetyl-N-acetylneuraminate esterase
+[16:50:15] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:15] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:15] Modify product: conserved protein => hypothetical protein
+[16:50:15] Modify product: predicted ATPase, activator of (R)-hydroxyglutaryl-CoA dehdratase => putative ATPase, activator of (R)-hydroxyglutaryl-CoA dehdratase
+[16:50:15] Modify product: conserved protein => hypothetical protein
+[16:50:15] Modify product: conserved protein => hypothetical protein
+[16:50:15] Modify product: conserved protein => hypothetical protein
+[16:50:15] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:15] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:15] Modify product: predicted L-galactonate oxidoreductase => putative L-galactonate oxidoreductase
+[16:50:15] Modify product: conserved protein => hypothetical protein
+[16:50:15] Modify product: conserved inner membrane protein => hypothetical protein
+[16:50:15] Modify product: predicted inner membrane structural protein => putative inner membrane structural protein
+[16:50:15] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:15] Modify product: predicted protein => putative protein
+[16:50:15] Modify product: 16S rRNA m2G1207 methyltransferase => 16S rRNA methyltransferase
+[16:50:15] Modify product: predicted protein => putative protein
+[16:50:15] Modify product: predicted esterase => putative esterase
+[16:50:15] Modify product: predicted DNase => putative DNase
+[16:50:15] Modify product: predicted pyruvate formate lyase activating enzyme => putative pyruvate formate lyase activating enzyme
+[16:50:15] Modify product: conserved protein, may be involved in nitrogen metabolism => hypothetical protein
+[16:50:15] Modify product: predicted DNA-binding transcriptional regulator => putative DNA-binding transcriptional regulator
+[16:50:15] Modify product: predicted phosphoglycerate mutase 2 => putative phosphoglycerate mutase 2
+[16:50:15] Modify product: conserved protein => hypothetical protein
+[16:50:15] Modify product: predicted sensory kinase in two-component regulatory system with YedW => putative sensory kinase in two-component regulatory system with YedW
+[16:50:15] Modify product: predicted inner membrane protein => putative inner membrane protein
+[16:50:15] Modify product: predicted rRNA methyltransferase => putative rRNA methyltransferase
+[16:50:15] Cleaned 1075 /product names
+[16:50:15] Deleting unwanted file: prokka_ec958/Escherichia.faa
+[16:50:15] Deleting unwanted file: prokka_ec958/Escherichia.blast
+[16:50:17] There are still 655 unannotated CDS left (started with 4762)
+[16:50:17] Will use blast to search against /opt/prokka/bin/../db/kingdom/Bacteria/sprot with 1 CPUs
+[16:50:17] Running: cat prokka_ec958\/sprot\.faa | parallel --gnu --plain -j 1 --block 83103 --recstart '>' --pipe blastp -query - -db /opt/prokka/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_ec958\/sprot\.blast 2> /dev/null
+[16:51:08] Modify product: Insertion sequence IS5376 putative ATP-binding protein => Insertion sequence putative ATP-binding protein
+[16:51:08] Modify product: Probable metallo-hydrolase Rv2300c => putative metallo-hydrolase
+[16:51:09] Modify product: Probable autotransporter ROD_p1121 => putative autotransporter
+[16:51:09] Modify product: Insertion sequence IS5376 putative ATP-binding protein => Insertion sequence putative ATP-binding protein
+[16:51:09] Modify product: Insertion element IS6110 uncharacterized 12.0 kDa protein => Insertion element uncharacterized 12.0 kDa protein
+[16:51:09] Modify product: Insertion sequence IS5376 putative ATP-binding protein => Insertion sequence putative ATP-binding protein
+[16:51:09] Modify product: Insertion element IS6110 uncharacterized 12.0 kDa protein => Insertion element uncharacterized 12.0 kDa protein
+[16:51:09] Cleaned 7 /product names
+[16:51:09] Deleting unwanted file: prokka_ec958/sprot.faa
+[16:51:09] Deleting unwanted file: prokka_ec958/sprot.blast
+[16:51:11] There are still 557 unannotated CDS left (started with 4762)
+[16:51:11] Will use hmmer3 to search against /opt/prokka/bin/../db/hmm/HAMAP.hmm with 1 CPUs
+[16:51:11] Running: cat prokka_ec958\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 1 --block 65015 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /opt/prokka/bin/../db/hmm/HAMAP.hmm /dev/stdin > prokka_ec958\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[16:51:58] Deleting unwanted file: prokka_ec958/HAMAP.hmm.faa
+[16:51:58] Deleting unwanted file: prokka_ec958/HAMAP.hmm.hmmer3
+[16:51:58] Labelling remaining 547 proteins as 'hypothetical protein'
+[16:51:58] Possible /pseudo 'carbamoyl phosphate synthetase' at EC958 position 36332
+[16:51:58] Possible /pseudo 'putative flavoprotein subunit required for anaerobic carnitine metabolism' at EC958 position 48735
+[16:51:58] Possible /pseudo 'isopropylmalate isomerase' at EC958 position 88285
+[16:51:58] Possible /pseudo 'acetolactate synthase / acetohydroxybutanoate synthase' at EC958 position 96175
+[16:51:58] Possible /pseudo 'Colicin-E7 immunity protein' at EC958 position 133251
+[16:51:58] Possible /pseudo 'Colicin-E7 immunity protein' at EC958 position 133950
+[16:51:58] Possible /pseudo 'Colicin-E7 immunity protein' at EC958 position 134648
+[16:51:58] Possible /pseudo 'YadG/YadH ABC transporter' at EC958 position 156641
+[16:51:58] Possible /pseudo 'putative transposase' at EC958 position 160896
+[16:51:58] Possible /pseudo 'putative fimbrial-like adhesin protein' at EC958 position 164250
+[16:51:58] Possible /pseudo 'gamma-glutamyl kinase-GP-reductase multienzyme complex' at EC958 position 316045
+[16:51:58] Possible /pseudo 'putative ribosomal protein' at EC958 position 338437
+[16:51:58] Possible /pseudo 'ATP-dependent dsDNA exonuclease' at EC958 position 445191
+[16:51:58] Possible /pseudo 'Sec Translocation Complex' at EC958 position 457120
+[16:51:58] Possible /pseudo 'Sec Translocation Complex' at EC958 position 458945
+[16:51:58] Possible /pseudo 'ClpAXP' at EC958 position 486603
+[16:51:58] Possible /pseudo 'putative multidrug transporter subunit of ABC superfamily: ATP-binding component' at EC958 position 499837
+[16:51:58] Possible /pseudo 'YbbA/YbbP ABC transporter' at EC958 position 551684
+[16:51:58] Possible /pseudo 'HokE' at EC958 position 611696
+[16:51:58] Possible /pseudo 'ferric enterobactin ABC transporter - membrane subunit' at EC958 position 634704
+[16:51:58] Possible /pseudo 'glutamate / aspartate ABC transporter - membrane subunit' at EC958 position 694577
+[16:51:58] Possible /pseudo 'putative carboxylase' at EC958 position 751732
+[16:51:58] Possible /pseudo 'D-altronate dehydratase' at EC958 position 759220
+[16:51:58] Possible /pseudo '2,3-diketo-L-gulonate:Na+ symporter - membrane subunit' at EC958 position 761933
+[16:51:58] Possible /pseudo 'succinate dehydrogenase membrane protein' at EC958 position 765665
+[16:51:58] Possible /pseudo 'The Colicin A Import System' at EC958 position 787921
+[16:51:58] Possible /pseudo 'The Colicin A Import System' at EC958 position 788414
+[16:51:58] Possible /pseudo 'The Colicin A Import System' at EC958 position 789857
+[16:51:58] Possible /pseudo 'The Colicin A Import System' at EC958 position 791184
+[16:51:58] Possible /pseudo 'YbhF/YbhR/YbhS ABC transporter' at EC958 position 837452
+[16:51:58] Possible /pseudo 'YbhF/YbhR/YbhS ABC transporter' at EC958 position 838578
+[16:51:58] Possible /pseudo 'glutathione ABC transporter - membrane subunit' at EC958 position 881229
+[16:51:58] Possible /pseudo 'putrescine ABC transporter - membrane subunit' at EC958 position 906412
+[16:51:58] Possible /pseudo 'arginine ABC transporter - membrane subunit' at EC958 position 910627
+[16:51:58] Possible /pseudo 'LolCDE ABC lipoprotein transporter' at EC958 position 1236998
+[16:51:58] Possible /pseudo 'LolCDE ABC lipoprotein transporter' at EC958 position 1237705
+[16:51:58] Possible /pseudo 'putative inner membrane protein' at EC958 position 1241643
+[16:51:58] Possible /pseudo 'putrescine / spermidine ABC transporter - membrane subunit' at EC958 position 1243996
+[16:51:58] Possible /pseudo 'Zn2+ ABC transporter - membrane subunit' at EC958 position 1300006
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 1313080
+[16:51:58] Possible /pseudo 'putative transcriptional regulator' at EC958 position 1385558
+[16:51:58] Possible /pseudo 'murein tripeptide ABC transporter / peptide ABC transporter - putative membrane subunit' at EC958 position 1425851
+[16:51:58] Possible /pseudo 'murein tripeptide ABC transporter / peptide ABC transporter - putative ATP binding subunit' at EC958 position 1427781
+[16:51:58] Possible /pseudo 'putative inner membrane protein' at EC958 position 1434934
+[16:51:58] Possible /pseudo 'Qin prophage; predicted protein' at EC958 position 1440702
+[16:51:58] Possible /pseudo 'peptide ABC transporter SapABCDF - ATP binding subunit' at EC958 position 1535896
+[16:51:58] Possible /pseudo 'peptide ABC transporter SapABCDF - membrane subunit' at EC958 position 1537765
+[16:51:58] Possible /pseudo 'YcjN/YcjO/YcjP ABC transporter' at EC958 position 1547638
+[16:51:58] Possible /pseudo 'YcjN/YcjO/YcjP ABC transporter' at EC958 position 1548506
+[16:51:58] Possible /pseudo 'YdcS/YdcT/YdcV/YdcU ABC transporter' at EC958 position 1635333
+[16:51:58] Possible /pseudo 'YdcS/YdcT/YdcV/YdcU ABC transporter' at EC958 position 1636347
+[16:51:58] Possible /pseudo 'YdcS/YdcT/YdcV/YdcU ABC transporter' at EC958 position 1637278
+[16:51:58] Possible /pseudo 'formate dehydrogenase N, alpha subunit' at EC958 position 1661696
+[16:51:58] Possible /pseudo 'putative fimbrial-like adhesin protein' at EC958 position 1687819
+[16:51:58] Possible /pseudo 'putative fimbrial-like adhesin protein' at EC958 position 1688335
+[16:51:58] Possible /pseudo 'oxidoreductase subunit' at EC958 position 1727290
+[16:51:58] Possible /pseudo 'oxidoreductase subunit' at EC958 position 1728021
+[16:51:58] Possible /pseudo 'membrane-associated protein' at EC958 position 1758293
+[16:51:58] Possible /pseudo 'glucuronide:H+ symporter' at EC958 position 1759467
+[16:51:58] Possible /pseudo 'member of SoxR-reducing complex' at EC958 position 1772601
+[16:51:58] Possible /pseudo 'putative subunit of YdiQ-YdiR flavoprotein' at EC958 position 1841720
+[16:51:58] Possible /pseudo 'YnjC/YnjD ABC transporter' at EC958 position 1897936
+[16:51:58] Possible /pseudo 'putative diguanylate cyclase' at EC958 position 1930811
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 1962134
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 1975245
+[16:51:58] Possible /pseudo 'FlhDC DNA-binding transcriptional dual regulator' at EC958 position 2030185
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 2039782
+[16:51:58] Possible /pseudo 'Qin prophage; predicted protein' at EC958 position 2175831
+[16:51:58] Possible /pseudo 'ATP-binding lipopolysaccharide transport protein' at EC958 position 2186810
+[16:51:58] Possible /pseudo 'adhesin' at EC958 position 2212777
+[16:51:58] Possible /pseudo 'adhesin' at EC958 position 2214259
+[16:51:58] Possible /pseudo 'MdtABC-TolC multidrug efflux transport system - membrane subunit' at EC958 position 2357089
+[16:51:58] Possible /pseudo 'galactitol PTS permease - GatC subunit' at EC958 position 2370566
+[16:51:58] Possible /pseudo 'tagatose-1,6-bisphosphate aldolase 2' at EC958 position 2373327
+[16:51:58] Possible /pseudo 'YehW/YehX/YehY/YehZ ABC transporter' at EC958 position 2418332
+[16:51:58] Possible /pseudo 'YehW/YehX/YehY/YehZ ABC transporter' at EC958 position 2419251
+[16:51:58] Possible /pseudo 'YehW/YehX/YehY/YehZ ABC transporter' at EC958 position 2420415
+[16:51:58] Possible /pseudo 'NADH-dependent dihydropyrimidine dehydrogenase subunit' at EC958 position 2437115
+[16:51:58] Possible /pseudo 'putative dehydrogenase, NAD-dependent' at EC958 position 2466934
+[16:51:58] Possible /pseudo 'peptide ABC transporter - membrane subunit' at EC958 position 2475962
+[16:51:58] Possible /pseudo 'putative autotransporter outer membrane protein' at EC958 position 2487331
+[16:51:58] Possible /pseudo 'putative autotransporter outer membrane protein' at EC958 position 2487829
+[16:51:58] Possible /pseudo 'CcmEFGH holocytochrome c synthetase' at EC958 position 2490083
+[16:51:58] Possible /pseudo 'ferredoxin-type protein' at EC958 position 2497241
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 2532085
+[16:51:58] Possible /pseudo 'putative fimbrial-like adhesin protein' at EC958 position 2642754
+[16:51:58] Possible /pseudo 'putative fimbrial-like adhesin protein' at EC958 position 2643230
+[16:51:58] Possible /pseudo 'putative DNA-binding transcriptional regulator' at EC958 position 2708811
+[16:51:58] Possible /pseudo 'sulfate / thiosulfate ABC transporter - membrane subunit' at EC958 position 2730556
+[16:51:58] Possible /pseudo 'putative structural protein, ethanolamine utilization microcompartment' at EC958 position 2742231
+[16:51:58] Possible /pseudo 'YphD/YphE/YphF ABC transporter' at EC958 position 2848603
+[16:51:58] Possible /pseudo 'YphD/YphE/YphF ABC transporter' at EC958 position 2850155
+[16:51:58] Possible /pseudo 'anti-sigma factor' at EC958 position 2880410
+[16:51:58] Possible /pseudo 'putative inner membrane protein' at EC958 position 2920117
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 2939095
+[16:51:58] Possible /pseudo 'ribonucleoside-diphosphate reductase 2' at EC958 position 2942450
+[16:51:58] Possible /pseudo 'hydrogenase 3, membrane subunit' at EC958 position 2985716
+[16:51:58] Possible /pseudo 'sulfate adenylyltransferase' at EC958 position 3016225
+[16:51:58] Possible /pseudo 'putative flavoprotein' at EC958 position 3027163
+[16:51:58] Possible /pseudo 'CSD sulfur transfer protein' at EC958 position 3081191
+[16:51:58] Possible /pseudo 'RecBCD' at EC958 position 3135837
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 3146125
+[16:51:58] Possible /pseudo 'putative DNA-binding transcriptional regulator LYSR-type' at EC958 position 3232803
+[16:51:58] Possible /pseudo 'putative DNA-binding transcriptional regulator LYSR-type' at EC958 position 3233106
+[16:51:58] Possible /pseudo '2,3-diketo-L-gulonate:Na+ symporter - membrane subunit' at EC958 position 3271649
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 3276255
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3383052
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3385061
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3386284
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3387777
+[16:51:58] Possible /pseudo 'LptABCFG ABC transporter' at EC958 position 3413541
+[16:51:58] Possible /pseudo 'putative protein with nucleoside triphosphate hydrolase domain protein' at EC958 position 3418238
+[16:51:58] Possible /pseudo 'putative protein with nucleoside triphosphate hydrolase domain protein' at EC958 position 3419125
+[16:51:58] Possible /pseudo 'ferric dicitrate ABC transporter - membrane subunit' at EC958 position 3468994
+[16:51:58] Possible /pseudo 'putative membrane protein' at EC958 position 3490839
+[16:51:58] Possible /pseudo 'galactosamine PTS permease - cryptic' at EC958 position 3587001
+[16:51:58] Possible /pseudo 'galactosamine PTS permease - cryptic' at EC958 position 3587794
+[16:51:58] Possible /pseudo 'phospholipid ABC transporter' at EC958 position 3634044
+[16:51:58] Possible /pseudo 'phospholipid ABC transporter' at EC958 position 3634698
+[16:51:58] Possible /pseudo 'phospholipid ABC transporter' at EC958 position 3635254
+[16:51:58] Possible /pseudo 'phospholipid ABC transporter' at EC958 position 3636044
+[16:51:58] Possible /pseudo 'LptABCFG ABC transporter' at EC958 position 3640168
+[16:51:58] Possible /pseudo 'LptABCFG ABC transporter' at EC958 position 3640732
+[16:51:58] Possible /pseudo 'longitudinal peptidoglycan synthesis/chromosome segregation-directing complex' at EC958 position 3685363
+[16:51:58] Possible /pseudo 'longitudinal peptidoglycan synthesis/chromosome segregation-directing complex' at EC958 position 3686532
+[16:51:58] Possible /pseudo 'YhdW/YhdX/YhdY/YhdZ ABC transporter' at EC958 position 3715192
+[16:51:58] Possible /pseudo 'YhdW/YhdX/YhdY/YhdZ ABC transporter' at EC958 position 3716383
+[16:51:58] Possible /pseudo 'YhdW/YhdX/YhdY/YhdZ ABC transporter' at EC958 position 3717494
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3751289
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3753251
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3754729
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3755935
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3756380
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3756886
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3757256
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3757836
+[16:51:58] Possible /pseudo 'putative protein secretion protein for export' at EC958 position 3758834
+[16:51:58] Possible /pseudo 'protein involved in utilization of DNA as a carbon source' at EC958 position 3810197
+[16:51:58] Possible /pseudo 'protein involved in utilization of DNA as a carbon source' at EC958 position 3810591
+[16:51:58] Possible /pseudo 'protein involved in utilization of DNA as a carbon source' at EC958 position 3811015
+[16:51:58] Possible /pseudo 'protein involved in utilization of DNA as a carbon source' at EC958 position 3811554
+[16:51:58] Possible /pseudo 'glycerol-3-phosphate / glycerol-2-phosphate ABC transporter - putative membrane subunit' at EC958 position 3879928
+[16:51:58] Possible /pseudo 'branched chain amino acid transporter - membrane subunit' at EC958 position 3885379
+[16:51:58] Possible /pseudo 'nickel ABC transporter - membrane subunit' at EC958 position 3906833
+[16:51:58] Possible /pseudo 'nickel ABC transporter - ATP binding subunit' at EC958 position 3908427
+[16:51:58] Possible /pseudo 'LdrD peptide of the LdrD-RdlD toxin-antitoxin system' at EC958 position 3991183
+[16:51:58] Possible /pseudo 'LdrD peptide of the LdrD-RdlD toxin-antitoxin system' at EC958 position 3991666
+[16:51:58] Possible /pseudo 'dipeptide ABC transporter - putative membrane subunit' at EC958 position 3996457
+[16:51:58] Possible /pseudo '2,3-diketo-L-gulonate:Na+ symporter - membrane subunit' at EC958 position 4035646
+[16:51:58] Possible /pseudo 'tagatose-1,6-bisphosphate aldolase 1' at EC958 position 4122378
+[16:51:58] Possible /pseudo 'acetohydroxybutanoate synthase / acetolactate synthase' at EC958 position 4214125
+[16:51:58] Possible /pseudo 'putative sulfatase' at EC958 position 4219995
+[16:51:58] Possible /pseudo 'phosphate ABC transporter - membrane subunit' at EC958 position 4267828
+[16:51:58] Possible /pseudo 'acetohydroxybutanoate synthase / acetolactate synthase' at EC958 position 4310600
+[16:51:58] Possible /pseudo 'TatABCE protein export complex' at EC958 position 4401575
+[16:51:58] Possible /pseudo 'TatABCE protein export complex' at EC958 position 4402093
+[16:51:58] Possible /pseudo 'putative GTP-binding protein' at EC958 position 4423253
+[16:51:58] Possible /pseudo 'formate dehydrogenase-O, alpha subunit' at EC958 position 4461213
+[16:51:58] Possible /pseudo 'PTS permease - unknown specificity' at EC958 position 4518366
+[16:51:58] Possible /pseudo 'mannose PTS permease' at EC958 position 4608163
+[16:51:58] Possible /pseudo 'maltose ABC transporter - membrane subunit' at EC958 position 4621944
+[16:51:58] Possible /pseudo 'formate dehydrogenase H' at EC958 position 4701032
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 4768238
+[16:51:58] Possible /pseudo 'fumarate reductase membrane protein' at EC958 position 4794395
+[16:51:58] Possible /pseudo 'regulator of FtsH protease' at EC958 position 4818049
+[16:51:58] Possible /pseudo 'putative protein' at EC958 position 4899186
+[16:51:58] Possible /pseudo 'LptABCFG ABC transporter' at EC958 position 4909687
+[16:51:58] Possible /pseudo 'ferric dicitrate ABC transporter - membrane subunit' at EC958 position 4947055
+[16:51:58] Possible /pseudo 'KpLE2 phage-like element; predicted DNA-binding transcriptional regulator' at EC958 position 4998851
+[16:51:58] Possible /pseudo 'fimbrial morphology' at EC958 position 5023829
+[16:51:58] Found 3391 unique /gene codes.
+[16:51:58] Fixed 2 duplicate /gene - essD_1 essD_2
+[16:51:58] Fixed 2 duplicate /gene - ybiC_1 ybiC_2
+[16:51:58] Fixed 2 duplicate /gene - yidJ_1 yidJ_2
+[16:51:58] Fixed 4 duplicate /gene - nanS_1 nanS_2 nanS_3 nanS_4
+[16:51:58] Fixed 4 duplicate /gene - cbtA_1 cbtA_2 cbtA_3 cbtA_4
+[16:51:58] Fixed 2 duplicate /gene - mngR_1 mngR_2
+[16:51:58] Fixed 3 duplicate /gene - ycgV_1 ycgV_2 ycgV_3
+[16:51:58] Fixed 2 duplicate /gene - sucA_1 sucA_2
+[16:51:58] Fixed 2 duplicate /gene - hemN_1 hemN_2
+[16:51:58] Fixed 5 duplicate /gene - hyfR_1 hyfR_2 hyfR_3 hyfR_4 hyfR_5
+[16:51:58] Fixed 2 duplicate /gene - dnaB_1 dnaB_2
+[16:51:58] Fixed 3 duplicate /gene - fabG_1 fabG_2 fabG_3
+[16:51:58] Fixed 2 duplicate /gene - motA_1 motA_2
+[16:51:58] Fixed 4 duplicate /gene - kbaY_1 kbaY_2 kbaY_3 kbaY_4
+[16:51:58] Fixed 2 duplicate /gene - uidR_1 uidR_2
+[16:51:58] Fixed 2 duplicate /gene - dppD_1 dppD_2
+[16:51:58] Fixed 2 duplicate /gene - flgB_1 flgB_2
+[16:51:58] Fixed 2 duplicate /gene - ydjH_1 ydjH_2
+[16:51:58] Fixed 2 duplicate /gene - flgF_1 flgF_2
+[16:51:58] Fixed 2 duplicate /gene - yicJ_1 yicJ_2
+[16:51:58] Fixed 2 duplicate /gene - nanK_1 nanK_2
+[16:51:58] Fixed 2 duplicate /gene - yaiU_1 yaiU_2
+[16:51:58] Fixed 2 duplicate /gene - fliD_1 fliD_2
+[16:51:58] Fixed 6 duplicate /gene - ydaV_1 ydaV_2 ydaV_3 ydaV_4 ydaV_5 ydaV_6
+[16:51:58] Fixed 3 duplicate /gene - yagE_1 yagE_2 yagE_3
+[16:51:58] Fixed 2 duplicate /gene - btuB_1 btuB_2
+[16:51:58] Fixed 2 duplicate /gene - flgG_1 flgG_2
+[16:51:58] Fixed 4 duplicate /gene - insAB-1_1 insAB-1_2 insAB-1_3 insAB-1_4
+[16:51:58] Fixed 2 duplicate /gene - icd_1 icd_2
+[16:51:58] Fixed 2 duplicate /gene - yfbS_1 yfbS_2
+[16:51:58] Fixed 2 duplicate /gene - ygdQ_1 ygdQ_2
+[16:51:58] Fixed 2 duplicate /gene - ycjZ_1 ycjZ_2
+[16:51:58] Fixed 2 duplicate /gene - shiA_1 shiA_2
+[16:51:58] Fixed 5 duplicate /gene - rbsK_1 rbsK_2 rbsK_3 rbsK_4 rbsK_5
+[16:51:58] Fixed 2 duplicate /gene - gspD_1 gspD_2
+[16:51:58] Fixed 2 duplicate /gene - yhdJ_1 yhdJ_2
+[16:51:58] Fixed 3 duplicate /gene - yjjN_1 yjjN_2 yjjN_3
+[16:51:58] Fixed 2 duplicate /gene - malK_1 malK_2
+[16:51:58] Fixed 2 duplicate /gene - iraM_1 iraM_2
+[16:51:58] Fixed 2 duplicate /gene - rutB_1 rutB_2
+[16:51:58] Fixed 2 duplicate /gene - gapA_1 gapA_2
+[16:51:58] Fixed 2 duplicate /gene - yeaM_1 yeaM_2
+[16:51:58] Fixed 2 duplicate /gene - trpE_1 trpE_2
+[16:51:58] Fixed 3 duplicate /gene - xerD_1 xerD_2 xerD_3
+[16:51:58] Fixed 2 duplicate /gene - wcaA_1 wcaA_2
+[16:51:58] Fixed 3 duplicate /gene - fhuC_1 fhuC_2 fhuC_3
+[16:51:58] Fixed 2 duplicate /gene - agaD_1 agaD_2
+[16:51:58] Fixed 2 duplicate /gene - ypdA_1 ypdA_2
+[16:51:58] Fixed 2 duplicate /gene - nanA_1 nanA_2
+[16:51:58] Fixed 2 duplicate /gene - yaeF_1 yaeF_2
+[16:51:58] Fixed 2 duplicate /gene - mntH_1 mntH_2
+[16:51:58] Fixed 2 duplicate /gene - sfsB_1 sfsB_2
+[16:51:58] Fixed 2 duplicate /gene - yfjX_1 yfjX_2
+[16:51:58] Fixed 2 duplicate /gene - treB_1 treB_2
+[16:51:58] Fixed 2 duplicate /gene - dgoA_1 dgoA_2
+[16:51:58] Fixed 2 duplicate /gene - flgE_1 flgE_2
+[16:51:58] Fixed 4 duplicate /gene - fadD_1 fadD_2 fadD_3 fadD_4
+[16:51:58] Fixed 2 duplicate /gene - recQ_1 recQ_2
+[16:51:58] Fixed 3 duplicate /gene - fimC_1 fimC_2 fimC_3
+[16:51:58] Fixed 4 duplicate /gene - cbeA_1 cbeA_2 cbeA_3 cbeA_4
+[16:51:58] Fixed 2 duplicate /gene - yjgL_1 yjgL_2
+[16:51:58] Fixed 3 duplicate /gene - vgrG1_1 vgrG1_2 vgrG1_3
+[16:51:58] Fixed 2 duplicate /gene - fruA_1 fruA_2
+[16:51:58] Fixed 2 duplicate /gene - tabA_1 tabA_2
+[16:51:58] Fixed 4 duplicate /gene - tfaD_1 tfaD_2 tfaD_3 tfaD_4
+[16:51:58] Fixed 2 duplicate /gene - lomR_1 lomR_2
+[16:51:58] Fixed 2 duplicate /gene - insA-1_1 insA-1_2
+[16:51:58] Fixed 2 duplicate /gene - nemR_1 nemR_2
+[16:51:58] Fixed 12 duplicate /gene - yedW_1 yedW_2 yedW_3 yedW_4 yedW_5 yedW_6 yedW_7 yedW_8 yedW_9 yedW_10 yedW_11 yedW_12
+[16:51:58] Fixed 3 duplicate /gene - kdsD_1 kdsD_2 kdsD_3
+[16:51:58] Fixed 2 duplicate /gene - dam_1 dam_2
+[16:51:58] Fixed 3 duplicate /gene - rzpD_1 rzpD_2 rzpD_3
+[16:51:58] Fixed 2 duplicate /gene - ushA_1 ushA_2
+[16:51:58] Fixed 2 duplicate /gene - sucC_1 sucC_2
+[16:51:58] Fixed 5 duplicate /gene - stfR_1 stfR_2 stfR_3 stfR_4 stfR_5
+[16:51:58] Fixed 2 duplicate /gene - ptsG_1 ptsG_2
+[16:51:58] Fixed 3 duplicate /gene - znuB_1 znuB_2 znuB_3
+[16:51:58] Fixed 2 duplicate /gene - ydfR_1 ydfR_2
+[16:51:58] Fixed 2 duplicate /gene - flhA_1 flhA_2
+[16:51:58] Fixed 2 duplicate /gene - flhB_1 flhB_2
+[16:51:58] Fixed 2 duplicate /gene - pinE_1 pinE_2
+[16:51:58] Fixed 2 duplicate /gene - uidB_1 uidB_2
+[16:51:58] Fixed 2 duplicate /gene - sucD_1 sucD_2
+[16:51:58] Fixed 2 duplicate /gene - deoR_1 deoR_2
+[16:51:58] Fixed 3 duplicate /gene - uxaA_1 uxaA_2 uxaA_3
+[16:51:58] Fixed 2 duplicate /gene - malX_1 malX_2
+[16:51:58] Fixed 2 duplicate /gene - ynfF_1 ynfF_2
+[16:51:58] Fixed 2 duplicate /gene - ydfD_1 ydfD_2
+[16:51:58] Fixed 2 duplicate /gene - fadH_1 fadH_2
+[16:51:58] Fixed 2 duplicate /gene - yqeA_1 yqeA_2
+[16:51:58] Fixed 2 duplicate /gene - gspG_1 gspG_2
+[16:51:58] Fixed 2 duplicate /gene - yajO_1 yajO_2
+[16:51:58] Fixed 2 duplicate /gene - fliF_1 fliF_2
+[16:51:58] Fixed 3 duplicate /gene - hokE_1 hokE_2 hokE_3
+[16:51:58] Fixed 4 duplicate /gene - rbsB_1 rbsB_2 rbsB_3 rbsB_4
+[16:51:58] Fixed 2 duplicate /gene - motB_1 motB_2
+[16:51:58] Fixed 2 duplicate /gene - ydfT_1 ydfT_2
+[16:51:58] Fixed 2 duplicate /gene - narX_1 narX_2
+[16:51:58] Fixed 2 duplicate /gene - rspB_1 rspB_2
+[16:51:59] Fixed 2 duplicate /gene - yaaU_1 yaaU_2
+[16:51:59] Fixed 6 duplicate /gene - yedV_1 yedV_2 yedV_3 yedV_4 yedV_5 yedV_6
+[16:51:59] Fixed 4 duplicate /gene - fimA_1 fimA_2 fimA_3 fimA_4
+[16:51:59] Fixed 2 duplicate /gene - clpB_1 clpB_2
+[16:51:59] Fixed 2 duplicate /gene - insI-2_1 insI-2_2
+[16:51:59] Fixed 2 duplicate /gene - yciK_1 yciK_2
+[16:51:59] Fixed 3 duplicate /gene - yfdO_1 yfdO_2 yfdO_3
+[16:51:59] Fixed 2 duplicate /gene - yadD_1 yadD_2
+[16:51:59] Fixed 2 duplicate /gene - yafX_1 yafX_2
+[16:51:59] Fixed 2 duplicate /gene - cysA_1 cysA_2
+[16:51:59] Fixed 2 duplicate /gene - gspF_1 gspF_2
+[16:51:59] Fixed 3 duplicate /gene - dicA_1 dicA_2 dicA_3
+[16:51:59] Fixed 2 duplicate /gene - ydhB_1 ydhB_2
+[16:51:59] Fixed 2 duplicate /gene - lpd_1 lpd_2
+[16:51:59] Fixed 2 duplicate /gene - ykfF_1 ykfF_2
+[16:51:59] Fixed 2 duplicate /gene - grxD_1 grxD_2
+[16:51:59] Fixed 3 duplicate /gene - betT_1 betT_2 betT_3
+[16:51:59] Fixed 2 duplicate /gene - fecE_1 fecE_2
+[16:51:59] Fixed 2 duplicate /gene - gspE_1 gspE_2
+[16:51:59] Fixed 2 duplicate /gene - frwB_1 frwB_2
+[16:51:59] Fixed 2 duplicate /gene - dgoK_1 dgoK_2
+[16:51:59] Fixed 2 duplicate /gene - ydeN_1 ydeN_2
+[16:51:59] Fixed 2 duplicate /gene - bglG_1 bglG_2
+[16:51:59] Fixed 2 duplicate /gene - axeA1_1 axeA1_2
+[16:51:59] Fixed 2 duplicate /gene - nanC_1 nanC_2
+[16:51:59] Fixed 2 duplicate /gene - pnuC_1 pnuC_2
+[16:51:59] Fixed 3 duplicate /gene - intB_1 intB_2 intB_3
+[16:51:59] Fixed 6 duplicate /gene - yeeJ_1 yeeJ_2 yeeJ_3 yeeJ_4 yeeJ_5 yeeJ_6
+[16:51:59] Fixed 2 duplicate /gene - ydfI_1 ydfI_2
+[16:51:59] Fixed 2 duplicate /gene - yhaO_1 yhaO_2
+[16:51:59] Fixed 2 duplicate /gene - lptG_1 lptG_2
+[16:51:59] Fixed 2 duplicate /gene - yahF_1 yahF_2
+[16:51:59] Fixed 2 duplicate /gene - ydcM_1 ydcM_2
+[16:51:59] Fixed 2 duplicate /gene - hsdR_1 hsdR_2
+[16:51:59] Fixed 2 duplicate /gene - ydfE_1 ydfE_2
+[16:51:59] Fixed 3 duplicate /gene - insO-2_1 insO-2_2 insO-2_3
+[16:51:59] Fixed 2 duplicate /gene - manZ_1 manZ_2
+[16:51:59] Fixed 2 duplicate /gene - sppA_1 sppA_2
+[16:51:59] Fixed 2 duplicate /gene - lptF_1 lptF_2
+[16:51:59] Fixed 2 duplicate /gene - ilvB_1 ilvB_2
+[16:51:59] Fixed 2 duplicate /gene - wrbA_1 wrbA_2
+[16:51:59] Fixed 3 duplicate /gene - gpFI_1 gpFI_2 gpFI_3
+[16:51:59] Fixed 6 duplicate /gene - torR_1 torR_2 torR_3 torR_4 torR_5 torR_6
+[16:51:59] Fixed 2 duplicate /gene - yraI_1 yraI_2
+[16:51:59] Fixed 2 duplicate /gene - gspK_1 gspK_2
+[16:51:59] Fixed 3 duplicate /gene - insC-1_1 insC-1_2 insC-1_3
+[16:51:59] Fixed 3 duplicate /gene - intS_1 intS_2 intS_3
+[16:51:59] Fixed 2 duplicate /gene - modE_1 modE_2
+[16:51:59] Fixed 2 duplicate /gene - agaR_1 agaR_2
+[16:51:59] Fixed 2 duplicate /gene - dicB_1 dicB_2
+[16:51:59] Fixed 2 duplicate /gene - mngA_1 mngA_2
+[16:51:59] Fixed 2 duplicate /gene - fliS_1 fliS_2
+[16:51:59] Fixed 2 duplicate /gene - ybcO_1 ybcO_2
+[16:51:59] Fixed 2 duplicate /gene - cra_1 cra_2
+[16:51:59] Fixed 2 duplicate /gene - yadI_1 yadI_2
+[16:51:59] Fixed 2 duplicate /gene - ysgA_1 ysgA_2
+[16:51:59] Fixed 2 duplicate /gene - rzpQ_1 rzpQ_2
+[16:51:59] Fixed 3 duplicate /gene - gatC_1 gatC_2 gatC_3
+[16:51:59] Fixed 2 duplicate /gene - flgK_1 flgK_2
+[16:51:59] Fixed 2 duplicate /gene - yohK_1 yohK_2
+[16:51:59] Fixed 2 duplicate /gene - kdsB_1 kdsB_2
+[16:51:59] Fixed 5 duplicate /gene - cirA_1 cirA_2 cirA_3 cirA_4 cirA_5
+[16:51:59] Fixed 2 duplicate /gene - ampG_1 ampG_2
+[16:51:59] Fixed 2 duplicate /gene - nadR_1 nadR_2
+[16:51:59] Fixed 2 duplicate /gene - acpP_1 acpP_2
+[16:51:59] Fixed 2 duplicate /gene - fliR_1 fliR_2
+[16:51:59] Fixed 3 duplicate /gene - ydiF_1 ydiF_2 ydiF_3
+[16:51:59] Fixed 2 duplicate /gene - oxyR_1 oxyR_2
+[16:51:59] Fixed 4 duplicate /gene - yeeP_1 yeeP_2 yeeP_3 yeeP_4
+[16:51:59] Fixed 2 duplicate /gene - ybhI_1 ybhI_2
+[16:51:59] Fixed 2 duplicate /gene - ydfA_1 ydfA_2
+[16:51:59] Fixed 2 duplicate /gene - npr_1 npr_2
+[16:51:59] Fixed 2 duplicate /gene - pflB_1 pflB_2
+[16:51:59] Fixed 2 duplicate /gene - soxS_1 soxS_2
+[16:51:59] Fixed 2 duplicate /gene - fliN_1 fliN_2
+[16:51:59] Fixed 2 duplicate /gene - fliI_1 fliI_2
+[16:51:59] Fixed 2 duplicate /gene - cusC_1 cusC_2
+[16:51:59] Fixed 2 duplicate /gene - kgtP_1 kgtP_2
+[16:51:59] Fixed 2 duplicate /gene - tonB_1 tonB_2
+[16:51:59] Fixed 3 duplicate /gene - yejO_1 yejO_2 yejO_3
+[16:51:59] Fixed 4 duplicate /gene - imm_1 imm_2 imm_3 imm_4
+[16:51:59] Fixed 3 duplicate /gene - ybbN_1 ybbN_2 ybbN_3
+[16:51:59] Fixed 2 duplicate /gene - fucP_1 fucP_2
+[16:51:59] Fixed 2 duplicate /gene - manY_1 manY_2
+[16:51:59] Fixed 2 duplicate /gene - higA-2_1 higA-2_2
+[16:51:59] Fixed 2 duplicate /gene - gadW_1 gadW_2
+[16:51:59] Fixed 3 duplicate /gene - dkgA_1 dkgA_2 dkgA_3
+[16:51:59] Fixed 3 duplicate /gene - ypdB_1 ypdB_2 ypdB_3
+[16:51:59] Fixed 2 duplicate /gene - yebK_1 yebK_2
+[16:51:59] Fixed 2 duplicate /gene - flgD_1 flgD_2
+[16:51:59] Fixed 2 duplicate /gene - fucK_1 fucK_2
+[16:51:59] Fixed 2 duplicate /gene - flgH_1 flgH_2
+[16:51:59] Fixed 3 duplicate /gene - flu_1 flu_2 flu_3
+[16:51:59] Fixed 2 duplicate /gene - ulaA_1 ulaA_2
+[16:51:59] Fixed 2 duplicate /gene - prfA_1 prfA_2
+[16:51:59] Fixed 2 duplicate /gene - fliQ_1 fliQ_2
+[16:51:59] Fixed 2 duplicate /gene - rfaE_1 rfaE_2
+[16:51:59] Fixed 2 duplicate /gene - yihF_1 yihF_2
+[16:51:59] Fixed 2 duplicate /gene - ymfN_1 ymfN_2
+[16:51:59] Fixed 2 duplicate /gene - glpT_1 glpT_2
+[16:51:59] Fixed 2 duplicate /gene - lsrR_1 lsrR_2
+[16:51:59] Fixed 2 duplicate /gene - ampC_1 ampC_2
+[16:51:59] Fixed 2 duplicate /gene - bcr_1 bcr_2
+[16:51:59] Fixed 2 duplicate /gene - fhuD_1 fhuD_2
+[16:51:59] Fixed 3 duplicate /gene - aes_1 aes_2 aes_3
+[16:51:59] Fixed 2 duplicate /gene - fhlA_1 fhlA_2
+[16:51:59] Fixed 2 duplicate /gene - sucB_1 sucB_2
+[16:51:59] Fixed 2 duplicate /gene - acrB_1 acrB_2
+[16:51:59] Fixed 2 duplicate /gene - hflC_1 hflC_2
+[16:51:59] Fixed 3 duplicate /gene - ldrD_1 ldrD_2 ldrD_3
+[16:51:59] Fixed 3 duplicate /gene - kduD_1 kduD_2 kduD_3
+[16:51:59] Fixed 3 duplicate /gene - btuF_1 btuF_2 btuF_3
+[16:51:59] Fixed 2 duplicate /gene - cadC_1 cadC_2
+[16:51:59] Fixed 2 duplicate /gene - uxuR_1 uxuR_2
+[16:51:59] Fixed 2 duplicate /gene - dxs_1 dxs_2
+[16:51:59] Fixed 2 duplicate /gene - murR_1 murR_2
+[16:51:59] Fixed 2 duplicate /gene - ftsE_1 ftsE_2
+[16:51:59] Fixed 2 duplicate /gene - nadC_1 nadC_2
+[16:51:59] Fixed 2 duplicate /gene - cca_1 cca_2
+[16:51:59] Fixed 2 duplicate /gene - mltF_1 mltF_2
+[16:51:59] Fixed 2 duplicate /gene - dcm_1 dcm_2
+[16:51:59] Fixed 2 duplicate /gene - garD_1 garD_2
+[16:51:59] Fixed 3 duplicate /gene - rbsC_1 rbsC_2 rbsC_3
+[16:51:59] Fixed 2 duplicate /gene - fliA_1 fliA_2
+[16:51:59] Fixed 2 duplicate /gene - yggP_1 yggP_2
+[16:51:59] Fixed 2 duplicate /gene - php_1 php_2
+[16:51:59] Fixed 2 duplicate /gene - acrA_1 acrA_2
+[16:51:59] Fixed 3 duplicate /gene - insN-1_1 insN-1_2 insN-1_3
+[16:51:59] Fixed 2 duplicate /gene - hokD_1 hokD_2
+[16:51:59] Fixed 2 duplicate /gene - yahE_1 yahE_2
+[16:51:59] Fixed 6 duplicate /gene - fecD_1 fecD_2 fecD_3 fecD_4 fecD_5 fecD_6
+[16:51:59] Fixed 2 duplicate /gene - lamB_1 lamB_2
+[16:51:59] Fixed 2 duplicate /gene - gatY_1 gatY_2
+[16:51:59] Fixed 2 duplicate /gene - rrrQ_1 rrrQ_2
+[16:51:59] Fixed 3 duplicate /gene - ygfI_1 ygfI_2 ygfI_3
+[16:51:59] Fixed 2 duplicate /gene - yijO_1 yijO_2
+[16:51:59] Fixed 3 duplicate /gene - ybjS_1 ybjS_2 ybjS_3
+[16:51:59] Fixed 4 duplicate /gene - yeeT_1 yeeT_2 yeeT_3 yeeT_4
+[16:51:59] Fixed 2 duplicate /gene - glpK_1 glpK_2
+[16:51:59] Fixed 2 duplicate /gene - ybcY_1 ybcY_2
+[16:51:59] Fixed 3 duplicate /gene - exuT_1 exuT_2 exuT_3
+[16:51:59] Fixed 2 duplicate /gene - higA_1 higA_2
+[16:51:59] Fixed 3 duplicate /gene - pdxA_1 pdxA_2 pdxA_3
+[16:51:59] Fixed 2 duplicate /gene - fucA_1 fucA_2
+[16:51:59] Fixed 2 duplicate /gene - flgI_1 flgI_2
+[16:51:59] Fixed 2 duplicate /gene - paaF_1 paaF_2
+[16:51:59] Fixed 2 duplicate /gene - flgL_1 flgL_2
+[16:51:59] Fixed 2 duplicate /gene - fliP_1 fliP_2
+[16:51:59] Fixed 5 duplicate /gene - insF-1_1 insF-1_2 insF-1_3 insF-1_4 insF-1_5
+[16:51:59] Fixed 2 duplicate /gene - yjdJ_1 yjdJ_2
+[16:51:59] Fixed 2 duplicate /gene - fdoG_1 fdoG_2
+[16:51:59] Fixed 2 duplicate /gene - emrB_1 emrB_2
+[16:51:59] Fixed 4 duplicate /gene - yfjQ_1 yfjQ_2 yfjQ_3 yfjQ_4
+[16:51:59] Fixed 2 duplicate /gene - ykgN_1 ykgN_2
+[16:51:59] Fixed 2 duplicate /gene - hsdM_1 hsdM_2
+[16:51:59] Fixed 2 duplicate /gene - gspJ_1 gspJ_2
+[16:51:59] Fixed 2 duplicate /gene - gudP_1 gudP_2
+[16:51:59] Fixed 2 duplicate /gene - recB_1 recB_2
+[16:51:59] Fixed 2 duplicate /gene - fruB_1 fruB_2
+[16:51:59] Fixed 4 duplicate /gene - yeeW_1 yeeW_2 yeeW_3 yeeW_4
+[16:51:59] Fixed 3 duplicate /gene - nanR_1 nanR_2 nanR_3
+[16:51:59] Fixed 2 duplicate /gene - entE_1 entE_2
+[16:51:59] Fixed 2 duplicate /gene - yibD_1 yibD_2
+[16:51:59] Fixed 2 duplicate /gene - yfaX_1 yfaX_2
+[16:51:59] Fixed 2 duplicate /gene - nanM_1 nanM_2
+[16:51:59] Fixed 2 duplicate /gene - znuA_1 znuA_2
+[16:51:59] Fixed 2 duplicate /gene - fliE_1 fliE_2
+[16:51:59] Fixed 2 duplicate /gene - ompF_1 ompF_2
+[16:51:59] Fixed 6 duplicate /gene - glnL_1 glnL_2 glnL_3 glnL_4 glnL_5 glnL_6
+[16:51:59] Fixed 2 duplicate /gene - emrK_1 emrK_2
+[16:51:59] Fixed 2 duplicate /gene - intE_1 intE_2
+[16:51:59] Fixed 2 duplicate /gene - lon_1 lon_2
+[16:51:59] Fixed 2 duplicate /gene - sohB_1 sohB_2
+[16:51:59] Fixed 6 duplicate /gene - fimZ_1 fimZ_2 fimZ_3 fimZ_4 fimZ_5 fimZ_6
+[16:51:59] Fixed 2 duplicate /gene - yehA_1 yehA_2
+[16:51:59] Fixed 3 duplicate /gene - cytR_1 cytR_2 cytR_3
+[16:51:59] Fixed 2 duplicate /gene - flgJ_1 flgJ_2
+[16:51:59] Fixed 3 duplicate /gene - yiaM_1 yiaM_2 yiaM_3
+[16:51:59] Fixed 2 duplicate /gene - ydfB_1 ydfB_2
+[16:51:59] Fixed 2 duplicate /gene - waaG_1 waaG_2
+[16:51:59] Fixed 2 duplicate /gene - dppB_1 dppB_2
+[16:51:59] Fixed 2 duplicate /gene - yeiP_1 yeiP_2
+[16:51:59] Fixed 2 duplicate /gene - allD_1 allD_2
+[16:51:59] Fixed 2 duplicate /gene - degS_1 degS_2
+[16:51:59] Fixed 2 duplicate /gene - tktB_1 tktB_2
+[16:51:59] Fixed 2 duplicate /gene - fliC_1 fliC_2
+[16:51:59] Fixed 4 duplicate /gene - yiaN_1 yiaN_2 yiaN_3 yiaN_4
+[16:51:59] Fixed 2 duplicate /gene - nanT_1 nanT_2
+[16:51:59] Fixed 2 duplicate /gene - malY_1 malY_2
+[16:51:59] Fixed 2 duplicate /gene - fdhF_1 fdhF_2
+[16:51:59] Fixed 2 duplicate /gene - ygbI_1 ygbI_2
+[16:51:59] Fixed 3 duplicate /gene - rbsA_1 rbsA_2 rbsA_3
+[16:51:59] Fixed 2 duplicate /gene - uidC_1 uidC_2
+[16:51:59] Fixed 2 duplicate /gene - fdnG_1 fdnG_2
+[16:51:59] Fixed 2 duplicate /gene - ycjY_1 ycjY_2
+[16:51:59] Fixed 2 duplicate /gene - mak_1 mak_2
+[16:51:59] Fixed 2 duplicate /gene - tktA_1 tktA_2
+[16:51:59] Fixed 3 duplicate /gene - rusA_1 rusA_2 rusA_3
+[16:51:59] Fixed 2 duplicate /gene - ubiE_1 ubiE_2
+[16:51:59] Fixed 3 duplicate /gene - fimD_1 fimD_2 fimD_3
+[16:51:59] Fixed 3 duplicate /gene - fepC_1 fepC_2 fepC_3
+[16:51:59] Fixed 2 duplicate /gene - flgC_1 flgC_2
+[16:51:59] Fixed 2 duplicate /gene - codB_1 codB_2
+[16:51:59] Fixed 2 duplicate /gene - fliG_1 fliG_2
+[16:51:59] Fixed 2 duplicate /gene - fucO_1 fucO_2
+[16:51:59] Fixed 2 duplicate /gene - yiaD_1 yiaD_2
+[16:51:59] Fixed 3 duplicate /gene - yicI_1 yicI_2 yicI_3
+[16:51:59] Fixed 2 duplicate /gene - gatB_1 gatB_2
+[16:51:59] Fixed 2 duplicate /gene - ydfU_1 ydfU_2
+[16:51:59] Fixed 9 duplicate /gene - envZ_1 envZ_2 envZ_3 envZ_4 envZ_5 envZ_6 envZ_7 envZ_8 envZ_9
+[16:51:59] Fixed 2 duplicate /gene - kbl_1 kbl_2
+[16:51:59] Fixed 2 duplicate /gene - xerC_1 xerC_2
+[16:51:59] Fixed 2 duplicate /gene - fliH_1 fliH_2
+[16:51:59] Fixed 2 duplicate /gene - ghrB_1 ghrB_2
+[16:51:59] Fixed 2 duplicate /gene - mprA_1 mprA_2
+[16:51:59] Fixed 3 duplicate /gene - msbA_1 msbA_2 msbA_3
+[16:51:59] Fixed 3 duplicate /gene - fhuA_1 fhuA_2 fhuA_3
+[16:51:59] Fixed 3 duplicate /gene - manX_1 manX_2 manX_3
+[16:51:59] Fixed 4 duplicate /gene - yeeS_1 yeeS_2 yeeS_3 yeeS_4
+[16:51:59] Fixed 4 duplicate /gene - ydaT_1 ydaT_2 ydaT_3 ydaT_4
+[16:51:59] Fixed 4 duplicate /gene - yiaO_1 yiaO_2 yiaO_3 yiaO_4
+[16:51:59] Fixed 320 colliding /gene names.
+[16:51:59] Adding /locus_tag identifiers
+[16:51:59] Assigned 4874 locus_tags to CDS and RNA features.
+[16:51:59] Writing outputs to prokka_ec958/
+[16:52:12] Generating annotation statistics file
+[16:52:12] Generating Genbank and Sequin files
+[16:52:12] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12-beta from https://github.com/tseemann/prokka' -Z prokka_ec958\/ec958_11262019\.err -i prokka_ec958\/ec958_11262019\.fsa 2> /dev/null
+[16:52:31] Deleting unwanted file: prokka_ec958/errorsummary.val
+[16:52:31] Deleting unwanted file: prokka_ec958/ec958_11262019.dr
+[16:52:31] Deleting unwanted file: prokka_ec958/ec958_11262019.fixedproducts
+[16:52:31] Deleting unwanted file: prokka_ec958/ec958_11262019.ecn
+[16:52:31] Deleting unwanted file: prokka_ec958/ec958_11262019.val
+[16:52:31] Repairing broken .GBK output that tbl2asn produces...
+[16:52:31] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokka_ec958\/ec958_11262019\.gbf > prokka_ec958\/ec958_11262019\.gbk
+[16:52:31] Deleting unwanted file: prokka_ec958/ec958_11262019.gbf
+[16:52:31] Output files:
+[16:52:31] prokka_ec958/ec958_11262019.txt
+[16:52:31] prokka_ec958/ec958_11262019.sqn
+[16:52:31] prokka_ec958/ec958_11262019.gbk
+[16:52:31] prokka_ec958/ec958_11262019.log
+[16:52:31] prokka_ec958/ec958_11262019.ffn
+[16:52:31] prokka_ec958/ec958_11262019.tbl
+[16:52:31] prokka_ec958/ec958_11262019.gff
+[16:52:31] prokka_ec958/ec958_11262019.fna
+[16:52:31] prokka_ec958/ec958_11262019.fsa
+[16:52:31] prokka_ec958/ec958_11262019.faa
+[16:52:31] prokka_ec958/ec958_11262019.err
+[16:52:31] Walltime used: 6.27 minutes
+[16:52:31] If you use this result please cite the Prokka paper:
+[16:52:31] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:52:31] Type 'prokka --citation' for more details.
+[16:52:31] Thank you, come again.
