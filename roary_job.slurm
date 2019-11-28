@@ -10,4 +10,4 @@
 #SBATCH --mem=16G                    # Memory per node 
 
 conda activate gwas_env
-roary -p 8 -f ./roary_output -e -n -v ./gff_files/*.gff
+roary -p 8 -f ./roary_output_try2 -e -n -v ./gff_files/*.gff

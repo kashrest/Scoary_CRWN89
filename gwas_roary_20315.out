@@ -1,0 +1,493 @@
+/var/spool/slurmd/job20315/slurm_script: line 12: conda: command not found
+Use of uninitialized value in require at /hb/home/kashrest/.conda/envs/gwas_env/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Encode.pm line 61.
+2019/11/27 13:54:21 Output directory created: ./roary_output_try2
+2019/11/27 13:54:21 Fixing input GFF files
+2019/11/27 14:09:10 Extracting proteins from GFF files
+
+Please cite Roary if you use any of the results it produces:
+    Andrew J. Page, Carla A. Cummins, Martin Hunt, Vanessa K. Wong, Sandra Reuter, Matthew T. G. Holden, Maria Fookes, Daniel Falush, Jacqueline A. Keane, Julian Parkhill,
+	"Roary: Rapid large-scale prokaryote pan genome analysis", Bioinformatics, 2015 Nov 15;31(22):3691-3693
+    doi: http://doi.org/10.1093/bioinformatics/btv421
+	Pubmed: 26198102
+
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-0081.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-0094.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-0215.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-0379.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-0654.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1203.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1420.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1447.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1463.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1493.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1563rep1.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1563rep2.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-08-1636.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0023rep1.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0023rep2.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0409.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0428.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0558.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0718.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0751.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0767.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-0768.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-1290.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-1305rep2.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-1342.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-09-1545.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0040.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0183.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0223.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0682.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0684.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0687.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0899rep2.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-0913.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1009.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1126.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1215.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1310.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1362.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1386.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1607.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-10-1610.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-11-0067.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-2011-0141.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-2011-0238.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-90544.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-B11-136.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/blood-B-11-184.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c10.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c11.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c12.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c13.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c14.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c16.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c1.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c2.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c3.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c4.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c5.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c6.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c7.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c8.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/c9.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s100.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s101.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s103.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s105.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s106.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s107.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s108.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s109.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s10.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s110.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s111.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s112.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s114.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s115.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s116.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s117.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s118.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s119.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s120.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s128.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s129.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s130.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s131.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s132.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s133.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s135.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s138.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s141.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s142.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s143.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s144.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s147.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s151.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s152.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s153.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s156.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s157.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s160.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s166.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s167.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s168.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s170.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s172.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s174.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s175.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s177.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s178.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s184.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s1.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s314.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s335.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s340.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s375.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s377.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s379.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s388.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s405.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s414.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s415.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s426.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s427.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s445.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s446.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s447.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s451.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s452.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s463.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s471.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s480.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s484.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s48.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s4.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s55.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s65.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s663.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s667.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s668.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s66.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s673.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s679.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s680.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s681.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s702.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s703.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s709.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s723.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s725.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s729.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s73.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s750.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s751.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s752.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s789.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s790.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s80.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s87.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s88.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s89.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s8.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s90.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s91.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s92.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s94.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s95.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s96.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s97.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/s98.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-100.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-101.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-103.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-104.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-105.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-106.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-107.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-108.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-109.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-110.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-111.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-112.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-113.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-114.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-115.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-116.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-117.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-119.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-120.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-121.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-123.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-124.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-125.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-126.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-127.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-128.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-129.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-130.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-131.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-132.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-133.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-134.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-135.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-136.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-137.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-138.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-139.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-140.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-141.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-142.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-143.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-144.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-145.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-146.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-147.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-148.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-14.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-151.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-153.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-154.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-155.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-156.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-157.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-158.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-159.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-15.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-161.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-162.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-166.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-169.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-170.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-171.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-172.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-173.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-175.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-176.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-177.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-179.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-180.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-181.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-182.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-184.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-185.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-186.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-187.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-188.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-193.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-195.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-196.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-197.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-200.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-201.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-203.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-205.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-207.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-208.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-209.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-211.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-212.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-213.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-219.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-220.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-221.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-225.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-226.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-227.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-228.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-229.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-230.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-232.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-233.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-235.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-236.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-237.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-238.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-239.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-23.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-243.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-244.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-248.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-249.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-24.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-250.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-251.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-253.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-254.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-255.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-256.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-257.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-258.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-259.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-260.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-261.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-266.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-269.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-271.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-273.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-274.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-276.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-277.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-281.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-282.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-285.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-286.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-287.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-288.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-289.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-31.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-33.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-38.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-39.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-3.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-40.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-45.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-48.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-4.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-50.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-51.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-54.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-56.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-58.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-59.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-60.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-61.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-62.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-65.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-66.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-69.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-70.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-73.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-74.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-75.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-76.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-77.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-78.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-79.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-80.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-81.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-82.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-83.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-84.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-85.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-87.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-88.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-89.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-8.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-90.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-91.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-93.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-94.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-95.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-97.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-98.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-99.gff
+Extracting proteins from /hb/home/kashrest/gwas/Scoary_CRWN89/gff_files/upec-9.gff
+Combine proteins into a single file
+Iteratively run cd-hit
+Parallel all against all blast
+Cluster with MCL
+2019/11/27 16:41:39 Running command: pan_genome_post_analysis -o clustered_proteins -p pan_genome.fa -s gene_presence_absence.csv -c _clustered.clstr --output_multifasta_files -i /hb/home/kashrest/gwas/Scoary_CRWN89/roary_output_try2/TTKTsk5vVk//_gff_files -f /hb/home/kashrest/gwas/Scoary_CRWN89/roary_output_try2/TTKTsk5vVk//_fasta_files -t 11  --dont_create_rplots   -v --mafft  -j Local --processors 8 --group_limit 50000 -cd 99
+Use of uninitialized value in require at /hb/home/kashrest/.conda/envs/gwas_env/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Encode.pm line 61.
+2019/11/27 16:41:43 Reinflate clusters
+2019/11/27 16:41:52 Split groups with paralogs
+2019/11/27 16:47:01 Labelling the groups
+2019/11/27 16:47:02 Transfering the annotation to the groups
+2019/11/27 16:58:30 Creating accessory binary gene presence and absence fasta
+2019/11/27 17:03:21 Creating accessory binary gene presence and absence tree
+2019/11/27 17:03:21 Running command: /hb/home/kashrest/.conda/envs/gwas_env/bin/FastTree -fastest -nt accessory_binary_genes.fa > accessory_binary_genes.fa.newick 
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: accessory_binary_genes.fa
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
+Search: Fastest+2nd +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.50
+ML Model: Jukes-Cantor, CAT approximation with 20 rate categories
+      0.20 seconds: Top hits for    168 of    355 seqs (at seed    100)
+      0.33 seconds: Top hits for    348 of    355 seqs (at seed    300)
+      1.24 seconds: Joined    100 of    352
+      2.00 seconds: Joined    200 of    352
+      2.66 seconds: Joined    300 of    352
+Initial topology in 2.95 seconds
+Refining topology: 34 rounds ME-NNIs, 2 rounds ME-SPRs, 17 rounds ML-NNIs
+      2.95 seconds: ME NNI round 1 of 34, 1 of 353 splits
+      3.09 seconds: ME NNI round 1 of 34, 101 of 353 splits, 26 changes (max delta 0.047)
+      3.22 seconds: ME NNI round 1 of 34, 201 of 353 splits, 55 changes (max delta 0.047)
+      3.32 seconds: ME NNI round 1 of 34, 301 of 353 splits, 80 changes (max delta 0.047)
+      3.49 seconds: ME NNI round 2 of 34, 101 of 353 splits, 14 changes (max delta 0.019)
+      3.60 seconds: ME NNI round 2 of 34, 201 of 353 splits, 34 changes (max delta 0.035)
+      3.71 seconds: ME NNI round 2 of 34, 301 of 353 splits, 51 changes (max delta 0.035)
+      3.87 seconds: ME NNI round 3 of 34, 101 of 353 splits, 13 changes (max delta 0.023)
+      3.97 seconds: ME NNI round 3 of 34, 201 of 353 splits, 30 changes (max delta 0.043)
+      4.16 seconds: ME NNI round 4 of 34, 101 of 353 splits, 11 changes (max delta 0.005)
+      4.27 seconds: ME NNI round 4 of 34, 201 of 353 splits, 15 changes (max delta 0.005)
+      4.41 seconds: ME NNI round 5 of 34, 101 of 353 splits, 6 changes (max delta 0.001)
+      4.60 seconds: ME NNI round 6 of 34, 101 of 353 splits, 4 changes (max delta 0.003)
+      4.74 seconds: ME NNI round 8 of 34, 1 of 353 splits
+      6.81 seconds: SPR round   1 of   2, 101 of 708 nodes
+      8.25 seconds: SPR round   1 of   2, 201 of 708 nodes
+     10.52 seconds: SPR round   1 of   2, 301 of 708 nodes
+     12.29 seconds: SPR round   1 of   2, 401 of 708 nodes
+     14.20 seconds: SPR round   1 of   2, 501 of 708 nodes
+     15.74 seconds: SPR round   1 of   2, 601 of 708 nodes
+     17.64 seconds: SPR round   1 of   2, 701 of 708 nodes
+     17.78 seconds: ME NNI round 12 of 34, 1 of 353 splits
+     17.89 seconds: ME NNI round 12 of 34, 101 of 353 splits, 0 changes
+     18.00 seconds: ME NNI round 12 of 34, 201 of 353 splits, 2 changes (max delta 0.001)
+     18.14 seconds: ME NNI round 13 of 34, 1 of 353 splits
+     18.25 seconds: ME NNI round 13 of 34, 101 of 353 splits, 0 changes
+     18.35 seconds: ME NNI round 13 of 34, 201 of 353 splits, 0 changes
+     18.49 seconds: SPR round   2 of   2, 1 of 708 nodes
+     20.05 seconds: SPR round   2 of   2, 101 of 708 nodes
+     21.61 seconds: SPR round   2 of   2, 201 of 708 nodes
+     23.53 seconds: SPR round   2 of   2, 301 of 708 nodes
+     25.11 seconds: SPR round   2 of   2, 401 of 708 nodes
+     26.91 seconds: SPR round   2 of   2, 501 of 708 nodes
+     28.35 seconds: SPR round   2 of   2, 601 of 708 nodes
+     30.16 seconds: SPR round   2 of   2, 701 of 708 nodes
+     30.31 seconds: ME NNI round 23 of 34, 1 of 353 splits
+     30.42 seconds: ME NNI round 23 of 34, 101 of 353 splits, 0 changes
+     30.53 seconds: ME NNI round 23 of 34, 201 of 353 splits, 0 changes
+     30.63 seconds: ME NNI round 23 of 34, 301 of 353 splits, 0 changes
+Total branch-length 16.344 after 31.16 sec
+     31.23 seconds: ML Lengths 1 of 353 splits
+     31.88 seconds: ML Lengths 101 of 353 splits
+     32.57 seconds: ML Lengths 201 of 353 splits
+     33.22 seconds: ML Lengths 301 of 353 splits
+     33.61 seconds: ML NNI round 1 of 17, 1 of 353 splits
+     35.89 seconds: ML NNI round 1 of 17, 101 of 353 splits, 12 changes (max delta 42.741)
+     38.15 seconds: ML NNI round 1 of 17, 201 of 353 splits, 27 changes (max delta 87.943)
+     40.32 seconds: ML NNI round 1 of 17, 301 of 353 splits, 46 changes (max delta 87.943)
+ML-NNI round 1: LogLk = -376337.252 NNIs 58 max delta 87.94 Time 41.57
+     41.67 seconds: Site likelihoods with rate category 1 of 20
+     41.79 seconds: Site likelihoods with rate category 2 of 20
+     41.90 seconds: Site likelihoods with rate category 3 of 20
+     42.01 seconds: Site likelihoods with rate category 4 of 20
+     42.11 seconds: Site likelihoods with rate category 5 of 20
+     42.21 seconds: Site likelihoods with rate category 6 of 20
+     42.32 seconds: Site likelihoods with rate category 7 of 20
+     42.44 seconds: Site likelihoods with rate category 8 of 20
+     42.57 seconds: Site likelihoods with rate category 9 of 20
+     42.69 seconds: Site likelihoods with rate category 10 of 20
+     42.82 seconds: Site likelihoods with rate category 11 of 20
+     42.94 seconds: Site likelihoods with rate category 12 of 20
+     43.07 seconds: Site likelihoods with rate category 13 of 20
+     43.19 seconds: Site likelihoods with rate category 14 of 20
+     43.32 seconds: Site likelihoods with rate category 15 of 20
+     43.45 seconds: Site likelihoods with rate category 16 of 20
+     43.57 seconds: Site likelihoods with rate category 17 of 20
+     43.70 seconds: Site likelihoods with rate category 18 of 20
+     43.83 seconds: Site likelihoods with rate category 19 of 20
+     43.96 seconds: Site likelihoods with rate category 20 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.965 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+     44.12 seconds: ML NNI round 2 of 17, 1 of 353 splits
+     44.90 seconds: ML NNI round 2 of 17, 101 of 353 splits, 3 changes (max delta 9.736)
+     46.09 seconds: ML NNI round 2 of 17, 201 of 353 splits, 8 changes (max delta 9.736)
+ML-NNI round 2: LogLk = -360377.984 NNIs 15 max delta 17.06 Time 47.94
+     47.94 seconds: ML NNI round 3 of 17, 1 of 353 splits
+     48.53 seconds: ML NNI round 3 of 17, 101 of 353 splits, 0 changes
+     48.99 seconds: ML NNI round 3 of 17, 201 of 353 splits, 1 changes (max delta 19.727)
+ML-NNI round 3: LogLk = -360336.116 NNIs 2 max delta 19.73 Time 49.26
+     49.25 seconds: ML NNI round 4 of 17, 1 of 353 splits
+ML-NNI round 4: LogLk = -360333.464 NNIs 0 max delta 0.00 Time 49.62
+Turning off heuristics for final round of ML NNIs (converged)
+     49.62 seconds: ML NNI round 5 of 17, 1 of 353 splits
+     51.95 seconds: ML NNI round 5 of 17, 101 of 353 splits, 1 changes (max delta 3.325)
+     54.33 seconds: ML NNI round 5 of 17, 201 of 353 splits, 2 changes (max delta 4.259)
+     56.51 seconds: ML NNI round 5 of 17, 301 of 353 splits, 5 changes (max delta 17.925)
+ML-NNI round 5: LogLk = -360228.266 NNIs 7 max delta 18.64 Time 57.82 (final)
+     57.81 seconds: ML Lengths 1 of 353 splits
+     58.34 seconds: ML Lengths 101 of 353 splits
+     58.92 seconds: ML Lengths 201 of 353 splits
+     59.46 seconds: ML Lengths 301 of 353 splits
+Optimize all lengths: LogLk = -360223.314 Time 59.79
+     63.47 seconds: ML split tests for    100 of    352 internal splits
+     67.51 seconds: ML split tests for    200 of    352 internal splits
+     71.60 seconds: ML split tests for    300 of    352 internal splits
+Total time: 73.39 seconds Unique: 355/355 Bad splits: 3/352 Worst delta-LogLk 7.602
+Number of clusters (54102) exceeds limit (50000). Multifastas not created. Please check the spreadsheet for contamination from different species or increase the --group_limit parameter.
+2019/11/27 17:44:20 Exiting early because number of clusters is too high
