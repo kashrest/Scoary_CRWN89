@@ -1,0 +1,28 @@
+11/28/2019 10:34:17 PM    ==== Scoary started ====
+11/28/2019 10:34:17 PM    Command: /hb/home/kashrest/newtest/bin/scoary -g ./gene_presence_absence.csv -t ./abr_resist_phenos_Moxifloxacin.csv --threads 8 --upgma_tree
+11/28/2019 10:34:17 PM    Reading gene presence absence file
+11/28/2019 10:34:38 PM    Creating Hamming distance matrix based on gene presence/absence
+11/28/2019 10:34:47 PM    Building UPGMA tree from distance matrix
+11/28/2019 10:34:52 PM    Reading traits file
+11/28/2019 10:34:52 PM    ERROR: Some isolates in your gene presence absence file were not represented in your traits file. These will count as MISSING data and will not be included.
+11/28/2019 10:34:52 PM    Finished loading files into memory.
+
+
+11/28/2019 10:34:52 PM    ==== Performing statistics ====
+11/28/2019 10:34:52 PM    -- Filtration options --
+11/28/2019 10:34:52 PM    Individual (Naive):    0.05
+11/28/2019 10:34:52 PM    Collapse genes:    False
+
+
+11/28/2019 10:34:52 PM    Tallying genes and performing statistical analyses
+11/28/2019 10:34:52 PM    Gene-wise counting and Fisher's exact tests for trait: Moxifloxacin
+11/28/2019 10:35:35 PM    Adding p-values adjusted for testing multiple hypotheses
+11/28/2019 10:35:35 PM    Wrote the UPGMA tree to file: ./Tree_28_11_2019_2234.nwk
+11/28/2019 10:35:35 PM    Storing results: Moxifloxacin
+11/28/2019 10:35:35 PM    Calculating max number of contrasting pairs for each nominally significant gene
+11/28/2019 10:35:55 PM    Storing results to file
+11/28/2019 10:35:55 PM    
+
+11/28/2019 10:35:55 PM    ==== Finished ====
+11/28/2019 10:35:55 PM    Checked a total of 54101 genes for associations to 1 trait(s). Total time used: 98 seconds.
+11/28/2019 10:35:55 PM    Scoary finished successfully, but with ERRORS. Please check your log file.

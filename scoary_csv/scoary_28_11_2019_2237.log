@@ -1,0 +1,13 @@
+11/28/2019 10:37:17 PM    ==== Scoary started ====
+11/28/2019 10:37:17 PM    Command: /hb/home/kashrest/newtest/bin/scoary -g ./gene_presence_absence.csv -t ./gene_presence_absence.csv --threads 8 --upgma_tree
+11/28/2019 10:37:17 PM    Reading gene presence absence file
+11/28/2019 10:37:38 PM    Creating Hamming distance matrix based on gene presence/absence
+11/28/2019 10:37:47 PM    Building UPGMA tree from distance matrix
+11/28/2019 10:37:51 PM    Reading traits file
+11/28/2019 10:37:57 PM    CRITICAL:
+Traceback (most recent call last):
+  File "/hb/home/kashrest/newtest/lib/python3.6/site-packages/scoary/methods.py", line 268, in main
+    strains)
+  File "/hb/home/kashrest/newtest/lib/python3.6/site-packages/scoary/methods.py", line 568, in Csv_to_dic
+    sys.exit("Make sure the top-left cell in the traits file "
+SystemExit: Make sure the top-left cell in the traits file is either empty or 'Name'. Do not include empty rows
