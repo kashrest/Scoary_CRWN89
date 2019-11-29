@@ -1,0 +1,28 @@
+11/28/2019 08:02:18 PM    ==== Scoary started ====
+11/28/2019 08:02:18 PM    Command: /hb/home/kashrest/newtest/bin/scoary -g ./roary_output_try2/gene_presence_absence.csv -t abr_resist_phenos_Ampicillin.csv --threads 8 --upgma_tree
+11/28/2019 08:02:18 PM    Reading gene presence absence file
+11/28/2019 08:02:39 PM    Creating Hamming distance matrix based on gene presence/absence
+11/28/2019 08:02:47 PM    Building UPGMA tree from distance matrix
+11/28/2019 08:02:51 PM    Reading traits file
+11/28/2019 08:02:51 PM    ERROR: Some isolates in your gene presence absence file were not represented in your traits file. These will count as MISSING data and will not be included.
+11/28/2019 08:02:51 PM    Finished loading files into memory.
+
+
+11/28/2019 08:02:51 PM    ==== Performing statistics ====
+11/28/2019 08:02:51 PM    -- Filtration options --
+11/28/2019 08:02:51 PM    Individual (Naive):    0.05
+11/28/2019 08:02:51 PM    Collapse genes:    False
+
+
+11/28/2019 08:02:51 PM    Tallying genes and performing statistical analyses
+11/28/2019 08:02:51 PM    Gene-wise counting and Fisher's exact tests for trait: Ampicillin
+11/28/2019 08:04:21 PM    Adding p-values adjusted for testing multiple hypotheses
+11/28/2019 08:04:21 PM    Wrote the UPGMA tree to file: ./Tree_28_11_2019_2002.nwk
+11/28/2019 08:04:21 PM    Storing results: Ampicillin
+11/28/2019 08:04:21 PM    Calculating max number of contrasting pairs for each nominally significant gene
+11/28/2019 08:05:10 PM    Storing results to file
+11/28/2019 08:05:10 PM    
+
+11/28/2019 08:05:10 PM    ==== Finished ====
+11/28/2019 08:05:10 PM    Checked a total of 54101 genes for associations to 1 trait(s). Total time used: 172 seconds.
+11/28/2019 08:05:10 PM    Scoary finished successfully, but with ERRORS. Please check your log file.
