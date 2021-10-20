@@ -1,5 +1,8 @@
-# Scoary_CRWN89
-This repo will contain all the processed data that will be spit out by Prokka and Roary (aka the software that needs linux/Ubuntu) that Scoary needs to run.
+# Scoary on E. Coli data for GWAS Software Comparison
+This repo contains scripts that take data output from Prokka and Roary (aka the software that needs linux/Ubuntu) that Scoary needs to run.
+## Subheader
+
+![Scoary Pipeline](Scoary_pipeline.png)
 
 The main goal is to run analysis on Scoary on an E. Coli dataset (UCSC, Jay Kim, CRWN 89: Workshop in Computational Biology) and check against known causative genes for specific antibiotic resistance.
 
